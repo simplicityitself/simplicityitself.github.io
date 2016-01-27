@@ -1,0 +1,33 @@
+- name: Home
+  path: "#top"
+  section_id: home
+- name: About
+  path: "#about"
+  section_id: about
+- name: Services
+  path: "#services"
+  section_id: services
+- name: Work
+  path: "#work"
+  section_id: work
+- name: Team
+  path: "#team"
+  section_id: team
+- name: Pricing
+  path: "#pricing"
+  section_id: pricing
+- name: Contact
+  path: "#contact"
+  section_id: contact
+- name: Blog
+  path: blog/
+  section_id: blog
+  children:
+    - name: Blog Default
+      path: blog/
+    - name: Blog Fullwidth
+      path: blog-fullwidth/
+    - name: Blog Masonry
+      path: blog-masonry/
+    - name: Blog Single
+      path: design/2015/05/01/a-cup-of-coffee-for-you.html
