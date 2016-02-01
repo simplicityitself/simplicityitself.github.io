@@ -5,7 +5,7 @@ description: > # Simplicity Itself, expert advice in handling changing software.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: SimplicityItse1
-github_username:  jekyll
+github_username:  simplicityitself
 
 # Build settings
 markdown: kramdown
