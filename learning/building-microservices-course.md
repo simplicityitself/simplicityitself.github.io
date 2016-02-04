@@ -1,8 +1,10 @@
 ---
+title: Building Microservices
 layout: article
 author: Simplicity Itself Team
 categories: Learning
-title: Mastering Microservices – Adaptive Learning
+redirect_from:
+ - "/services/building-microservices.html"
 ---
 Ever experienced that moment where your heart sinks at the words "We just want you to make this one, small and trivial change…".
 
@@ -10,10 +12,11 @@ If you build software, change is an inevitable force in your life and your abili
 
 Given that change and speed of software evolution is so critical, why is it that so much software becomes a millstone around yourself and your team's next, leading to you dreading the next inevitable change that's needed? For over 10 years, focus has been consistently applied to helping us work in a more agile and adaptable fashion, with far less focus on how to create software that thrives in an agile environment.
 
-This is not taught in an intensive style. Instead, it follows our <a title="Rationale for Adaptive Learning" href="/learning/rationale-for-work-based-learning/">Adaptive Learning</a> approach, spread over a more extended period of time. This permits the creation of positive feedback loops between the organisation, learners and trainers. This deepens and broadens the knowledge retained, and gives you better value for your money and an improved training result.
+This hands-on, extremely practical course teaches you the latest techniques you can apply today to your architecture, design and code to build software that doesn't fear change. This course will teach you how to build software that adapts as fast as your business and requirements do.
 
 If you would like to discuss this course, or book it for your team, please <a href="/#contactus" target="_blank">contact us</a>
 
+<strong>Duration: 3 Days</strong>
 <h3>Audience</h3>
 Any developer with some experience of networking, and wants to build software that adapts as fast as their business does.
 <h4>In this course you will learn how to</h4>
@@ -85,6 +88,13 @@ Any developer with some experience of networking, and wants to build software th
 </ul>
 </li>
 </ul>
+&nbsp;
+
 If you would like to discuss this course, or book it for your team, please <a href="/#contactus" target="_blank">contact us</a>
 
+You may also be interested in:-
+<ul>
+	<li><a title="Building Microservices" href="/learning/building-microservices-course/">1 Day: Introduction to Building Microservices</a>, a 1 day workshop, giving you a taste of a Microservices architecture and how to identify, extract and run services.</li>
+	<li><a title="Mastering Microservices – Extended Learning" href="/learning/mastering-microservices-extended-learning/">Mastering Microservices - Extended Learning</a>, applying the precepts of Adaptive Learning for a longer term, deeper learning experience covering a broad swathe of topics from the philosophy and interpersonal effects of a microservice architecture to the very practical aspects of picking technologies and how to avoid a build storm on your CI.</li>
+</ul>
 &nbsp;

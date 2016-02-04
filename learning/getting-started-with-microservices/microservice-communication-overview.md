@@ -3,7 +3,7 @@ title: Microservice Communication Overview
 layout: article
 author: Simplicity Itself Team
 categories: Getting Started With Microservices
-redirect_from: "/learning/getting-started-microservices/microservice-communication-overview/"
+redirect_from: "/learning/getting-started-microservices/microservice-communication-overview.html"
 ---
 The orthodoxy of Microservices has currently settled on HTTP/ REST as the technology of choice for inter-service communication.
 

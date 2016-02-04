@@ -3,7 +3,6 @@ layout: article
 author: David Dawson
 categories: Microservices and Reactive
 title: Microservices Security&#58; OAuth vs Session
-redirect_from: "/microservices-reactive/microservices-security-oauth-vs-session.html"
 ---
 
 A question often posed to us during our research and project work is "<em>how should I secure a Microservice?</em>"

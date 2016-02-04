@@ -3,7 +3,6 @@ layout: article
 author: Russ Miles
 categories: Microservices and Reactive
 title: DevOps&#58; So Much More Than Automation
-redirect_from: "/learning/devops/devops-so-much-more-than-automation.html"
 ---
 <em>Speed, innovation, competitive advantage...</em>
 

@@ -3,7 +3,7 @@ title: How To Build Microservices
 layout: article
 author: Simplicity Itself Team
 categories: Getting Started With Microservices
-redirect_from: "/learning/getting-started-microservices/how-to-build-microservices/"
+redirect_from: "/learning/getting-started-microservices/how-to-build-microservices.html"
 ---
 Microservices are undergoing the inevitable hype cycle given to every new architecture and popular technology.
 

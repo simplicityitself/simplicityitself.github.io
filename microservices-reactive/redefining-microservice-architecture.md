@@ -3,7 +3,6 @@ layout: article
 author: David Dawson
 categories: Microservices and Reactive
 title: Redefining The Microservice Architecture
-redirect_from: "/microservices-reactive/defining-the-microservice-architecture.html"
 ---
 Recently (June 2015), I gave a <a title="MIcroservices Done RIght" href="https://skillsmatter.com/skillscasts/6274-david-dawson" target="_blank">talk</a> at the DDD Exchange at Skills Matter in London.
 
