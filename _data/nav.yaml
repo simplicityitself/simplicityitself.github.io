@@ -1,9 +1,9 @@
 - name: Home
   path: "#top"
   section_id: home
-- name: About
-  path: "#about"
-  section_id: about
+- name: Microservices
+  path: "#microservices"
+  section_id: microservices
 - name: Services
   path: "#services"
   section_id: services
