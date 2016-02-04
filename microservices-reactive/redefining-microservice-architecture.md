@@ -3,7 +3,6 @@ layout: article
 author: David Dawson
 categories: Microservices and Reactive
 title: Redefining The Microservice Architecture
-redirect_from: "/microservices-reactive/defining-the-microservice-architecture.html"
 ---
 Recently (June 2015), I gave a <a title="MIcroservices Done RIght" href="https://skillsmatter.com/skillscasts/6274-david-dawson" target="_blank">talk</a> at the DDD Exchange at Skills Matter in London.
 
@@ -49,7 +48,7 @@ For us, this is hugely useful, as it very directly converts into a philosophical
 
 This does though leave Microservices as an architecture, not a method of adequate design. This is where we see projects going very wrong and not gaining the benefits that they expected to.
 
-We have seen this often enough that we've come to term this the '<a href="http://www.simplicityitself.com/premium/Microservices-Adoption-Hump" target="_blank"><strong><em>Microservices Adoption Hump</em></strong></a>' (article by Russ Miles), getting all the pain of Microservices, without gaining the benefits.
+We have seen this often enough that we've come to term this the '<a href="/premium/Microservices-Adoption-Hump" target="_blank"><strong><em>Microservices Adoption Hump</em></strong></a>' (article by Russ Miles), getting all the pain of Microservices, without gaining the benefits.
 <h2>Enter <em>Design</em></h2>
 Fundamentally, Microservices is not a design, it cannot be, since it's an architecture. This has led to many teams applying their existing design skills to the new architecture and deployment style and wondering why things get hard.
 
@@ -73,7 +72,7 @@ This makes me sad, as it's a blinkered, wasteful thing.
 
 It is as good a place as any, and better than most, in order to learn how to effectively model an application, whether you take advantage of the deep isolation that a Microservices architecture avails you of or not.
 
-Watch the talk above for some specific examples of how this plays out. Buy Eric's book for some more information (read the second half first is my advice), find your local meetup and other web resources and connect into learning how to <em>design</em> software. We run a 3 day course on <a title="Antifragile Software: Building Adaptable Software with Microservices" href="http://www.simplicityitself.com/learning/building-microservices-course/" target="_blank">Building Microservices</a>. This is effectively a course on how to design software using events that cross network boundaries all the time, which describes a microservices system handily.
+Watch the talk above for some specific examples of how this plays out. Buy Eric's book for some more information (read the second half first is my advice), find your local meetup and other web resources and connect into learning how to <em>design</em> software. We run a 3 day course on <a title="Antifragile Software: Building Adaptable Software with Microservices" href="/learning/building-microservices-course/" target="_blank">Building Microservices</a>. This is effectively a course on how to design software using events that cross network boundaries all the time, which describes a microservices system handily.
 <h2>The Microservices Community</h2>
 Dan North tells a good story around the concepts of a <strong><em>bounded</em></strong> and a <strong><em>centred</em></strong> community. A bounded community enforces membership via a set of constraints, rules of membership. Scrum is a good example of this.
 
@@ -103,4 +102,4 @@ Only then will we be able to reap the benefits and live up to the aspirations we
 
 Simplicity Itself are researching better ways of building Microservices. By applying DDD, Event Sourcing and other techniques, we are building platforms that are naturally multi cloud and infrastructure agnostic and give a great User eXperience for Microservices, whether you are a developer, manager or operations.
 
-We will be releasing this technology platform as open source within the next few months. If you would like more information or to be part of the beta programme <a href="http://www.simplicityitself.com/#contactus" target="_blank">contact us</a>
+We will be releasing this technology platform as open source within the next few months. If you would like more information or to be part of the beta programme <a href="/contact" target="_blank">contact us</a>

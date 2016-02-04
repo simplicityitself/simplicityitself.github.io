@@ -52,7 +52,7 @@ We consider 3 things absolutely necessary for Microservices to work:
 
 By this measure, the answer to the question, "is Docker necessary?"  can only be <em><strong>No</strong></em>
 
-It is an enabler and can give significant benefits. It is not, however, a hard requirement for Microservices in the way that <a title="Service Discovery Overview" href="http://www.simplicityitself.com/learning/getting-started-microservices/service-discovery-overview/" target="_blank">Service Discovery</a> is.
+It is an enabler and can give significant benefits. It is not, however, a hard requirement for Microservices in the way that <a title="Service Discovery Overview" href="/learning/getting-started-microservices/service-discovery-overview/" target="_blank">Service Discovery</a> is.
 
 We have found that Docker, or other container technology can be useful in one or both of your Deployment Infrastructure and as part of your Development Approach. It is not always appropriate, and at this point of the adoption cycle, there is little in the way of consensus on a 'best practice' approaches for using the technology.
 

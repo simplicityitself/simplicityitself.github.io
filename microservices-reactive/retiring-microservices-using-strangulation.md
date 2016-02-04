@@ -4,7 +4,6 @@ title: Retiring Microservices Using Strangulation
 author: David Dawson
 categories:
  - Microservices and Reactive
-redirect_from: "/microservices-reactive/retiring-microservices-using-strangulation.html"
 ---
 
 No programmer likes to plan for their work to be taken offline and shutdown, but part of good antifragile thinking is allowing things that aren't successful, to end. Applying that to Microservices, one of the natural parts of that architectural style is creating and destroying instances of a service. As part of the lifecycle of services, you sometimes have to create different versions of a service, and so manage the retiring of a previous version (although we try to avoid versioning where possible).
