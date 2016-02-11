@@ -8,6 +8,8 @@ slides:
       - text: Learn More About Microservices
         class: medium
         url: /#microservices
+
+tags2:
   - bg: http://themes.blahlab.com/squarebox/wp-content/uploads/2014/12/out-short.jpg
     title: creative &amp; powerful
     tagline: It it very happy thing to make great website
@@ -259,11 +261,11 @@ socials:
   </div>
   <div class='two spacing'></div>
 </div>
-<a id='services'></a>
+<a id='training'></a>
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our services" class="alt" %}
+      {% include section-header.html title="Training" class="alt" %}
       <div class='two spacing'></div>
     </div>
   </div>
@@ -272,8 +274,8 @@ socials:
       <div class='mod modBoxedText'>
         <div class='boxes' style="margin:0 auto;">
           {% include servicebox.html image="/images/vis/page-layouts-7215968_orig.jpeg" title="1 Day: Introduction to<br/>​Building Microservices" text="A 1 day workshop, giving you a taste of a Microservices architecture and how to identify, extract and run services." url="/courses/1-day-tutorial-introduction-to-building-microservices" %}
-          {% include servicebox.html image="/images/vis/page-layouts-5488439_orig.jpeg" title="3 Day: Building Microservices" text="A 3 day in intensive course, permitting full applications to be built, differing styles and techniques to be applied and a deep dive into the Microservice philosophy of building antifragile software." url="/learning/building-microservices-course/"%}
-          {% include servicebox.html image="/images/vis/page-layouts-1705637_orig.jpeg" title="Mastering Microservices<br/>​Adaptive Learning" text="Applying the precepts of Work Based Learning for a longer term, deeper learning experience and deep dive on the technologies and practical techniques of Microservices Development." url="/learning/mastering-microservices-adaptive-learning/" %}
+          {% include servicebox.html image="/images/vis/page-layouts-5488439_orig.jpeg" title="3 Day: Building Microservices" text="A 3 day in intensive course, permitting full applications to be built, differing styles and techniques to be applied and a deep dive into the Microservice philosophy of building antifragile software." url="/learning/building-microservices-course"%}
+          {% include servicebox.html image="/images/vis/page-layouts-1705637_orig.jpeg" title="Mastering Microservices<br/>​Adaptive Learning" text="Applying the precepts of Work Based Learning for a longer term, deeper learning experience and deep dive on the technologies and practical techniques of Microservices Development." url="/learning/mastering-microservices-adaptive-learning" %}
 
         </div>
       </div>
@@ -281,156 +283,7 @@ socials:
   </div>
   <div class='four spacing'></div>
 </div>
-<div class='full parallax' style='background-image: url(../images/@stock/milestone-bg.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html class="alt" title_style="color: #fff;" title="What we are good at" %}
-      <div class='spacing'></div>
-      <p style='color: #ccc;'>
-        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-5 columns'>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          <li>
-            {% include bar-graph.html style="color: #fff;" title="Web Design" percents="84" %}
-          </li>
-          <li>
-            {% include bar-graph.html style="color: #fff;" title="Web Development" percents="99" %}
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class='large-6 columns'>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          <li>
-            {% include bar-graph.html style="color: #fff;" title="Branding" percents="90" %}
-          </li>
-          <li>
-            {% include bar-graph.html style="color: #fff;" title="Marketing" percents="66" %}
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class='four spacing'></div>
-</div>
-<a id='work'></a>
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="our works" class="alt" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-      <div class='mod modGallery'>
-        <div class='gallery-nav'>
-          <ul>
-            <li class='current'>
-              <a data-cat='all' href='#'>All</a>
-            </li>
-            <li>
-              <a data-cat='graphic-design' href='#'>Graphic Design</a>
-            </li>
-            <li>
-              <a data-cat='web-design' href='#'>Web Design</a>
-            </li>
-            <li>
-              <a data-cat='brand' href='#'>Brand</a>
-            </li>
-            <li>
-              <a data-cat='development' href='#'>Development</a>
-            </li>
-            <li>
-              <a data-cat='print' href='#'>Print</a>
-            </li>
-          </ul>
-        </div>
-        <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-          {% for work in page.works %}
-            <li class='{{work.class}}'>
-              <a href='{{work.link_to}}'>
-                <img width="600" height="500" alt="" src="{{work.image}}" />
-                <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
-                  <div class='thumb-info'>
-                    <h3>{{work.title}}</h3>
-                    <p>{{work.desc}}</p>
-                  </div>
-                </div>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class='three spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <a class='button' href='#'>View more works</a>
-      </p>
-    </div>
-  </div>
-  <div class='four spacing'></div>
-</div>
-<div class='full parallax' style='background-image: url(../images/@stock/testimonials-bg.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
-      </p>
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What our clients say" title_style="color: #fff;" class="alt" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>{{testimonial.quote}}</p>
-                  <p class='author'>{{testimonial.author}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class='full no-padding' style='background: #F9CE06; color: #fff'>
-  <div class='two spacing'></div>
-  <div class='mod modCallToAction'>
-    <div class='row'>
-      <div class='medium-9 large-9 columns'>
-        <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
-      </div>
-      <div class='medium-3 large-3 columns'>
-        <a class='boxed button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
-      </div>
-    </div>
-  </div>
-  <div class='spacing'></div>
-</div>
+
 <a id='team'></a>
 <div class='full'>
   <div class='row'>
@@ -441,7 +294,7 @@ socials:
   </div>
   <div class='row'>
     {% for member in page.members %}
-      <div class='small-6 medium-3 large-3 columns'>
+      <div class='small-6 medium-3 large-4 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
             <img class="avatar" alt="" src="{{member.avatar}}" />
@@ -468,48 +321,7 @@ socials:
   <div class='three spacing'></div>
 </div>
 
-<a id='pricing'></a>
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html class="alt" title="Pricing table" %}
-      <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='spacing'></div>
-  <div class='row'>
-    {% for box in page.price_boxes %}
-      <div class='medium-6 large-3 columns'>
-        <div class='mod modPriceBox {{box.class}}'>
-          <div class='info'>
-            <p class='level'>{{box.type}}</p>
-            <p class='desc'>{{box.desc}}</p>
-            <p class='price'>
-              <span class='dollar'>$</span>
-              <span class='number'>{{box.cost}}</span>
-            </p>
-          </div>
-          <div class='features'>
-            <ul>
-              {% for line in box.lines %}
-                <li class="{% cycle '', 'even' %}">{{line}}</li>
-              {% endfor %}
-            </ul>
-          </div>
-          <p class='start'>
-            <a class='button small' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Start Trial</a>
-          </p>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <div class='four spacing'></div>
-</div>
-<div class='full parallax' style='background-image: url(../images/@stock/blog-posts-bg.jpg);'>
+<div class='full parallax' style='background-image: url(../images/vis/Bookshelf-2.jpg);'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Our recent posts" class="alt" title_style="color: #fff;" %}
@@ -526,7 +338,7 @@ socials:
           <a href="{{post.url}}"><img alt="" src="{{site.url}}/{{post.image}}" /></a>
           <div class='content'>
             <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{post.title}}</a></h4>
+            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
             <p>{{post.excerpt}}</p>
             <div class='tags'>
               {% for tag in post.tags %}
@@ -543,7 +355,7 @@ socials:
   <div class='row'>
     <div class='large-12 columns'>
       <p class='centered-text'>
-        <a class='button boxed' href='{{site.url}}/blog.html'>See more posts</a>
+        <a class='button boxed' href='{{site.url}}/blog/'>See more posts</a>
       </p>
     </div>
   </div>
@@ -581,19 +393,20 @@ socials:
     </div>
     <div class='medium-4 columns'>
       <div class='contact-details'>
-        <h4>Our location:</h4>
-        <p>41 Dean Street, London, UK</p>
-        <h4>Our Phone:</h4>
-        <p>+86 (03) 9810 4612</p>
-        <h4>Fax:</h4>
-        <p>+6102 236338 5456</p>
+          <address>Simplicity Itself Ltd<br/>
+          64 ACRES LANE, STALYBRIDGE, EAST CHESHIRE, SK15 2JU
+          </address>
+          ​
+
         <h4>Our Email:</h4>
-        <p>info@osum-team.com</p>
+        <p>General – info@simplicityitself.com<br/>​Sales – sales@simplicityitself.com</p>
       </div>
     </div>
   </div>
 </div>
 <div class='two spacing'></div>
+
+<!--
 <div class='full parallax' style='background-image: url(../images/@stock/big-socials-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -616,6 +429,7 @@ socials:
   <div class='four spacing'></div>
   <div class='two spacing'></div>
 </div>
+-->
 <div class='full no-padding' style='background: #111'>
   <div class='two spacing'></div>
   <div class='row'>

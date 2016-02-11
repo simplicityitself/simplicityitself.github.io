@@ -1,8 +1,18 @@
 ---
-layout: article
+layout: post
 author: Munib Rahim
-categories: Publications
-title:
+categories:
+ - Publications
+title:Opportunity, Innovation &amp; Disruption: The Future of 21st Century Law
+image: images/vis/Biology (1).jpg
+date: 2015-02-13 12:30
+tags:
+ - datascience
+ - microservice
+ - research
+ - ross
+ - watson
+redirect_from: "/publications/opportunity-innovation-disruption-the-future-of-21st-century-law.html"
 ---
 
 <em>Summary</em>
@@ -18,7 +28,7 @@ title:
 
 <a href="http://www.thettn.tv/" target="_blank">http://www.thettn.tv/ - Technology Transformation Network</a>
 <a href="http://www.annapurnarecruitment.com/" target="_blank">http://www.annapurnarecruitment.com/ - Anna Purna</a>
-<a href="http://www.simplicityitself.com/" target="_blank">http://www.simplicityitself.com/ - Simplicity Itself</a>
+<a href="http://www.simplicityitself.id/" target="_blank">http://www.simplicityitself.id/ - Simplicity Itself</a>
 <h2>Opportunity, Innovation &amp; Disruption: The Future of 21st Century Law</h2>
 <h3>What is Innovation &amp; How do we get it?</h3>
 Driverless cars, Smarter Homes, Voice activated cognitive computing search. It is all already here. The disruption of industries and markets we have already seen this century will pale in comparison to what is coming.

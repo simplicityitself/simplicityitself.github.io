@@ -2857,6 +2857,10 @@ body {
 .modStylePanel a#pattern-10 {
   background: url(../images/pattern-10.png) left top no-repeat;
 }
+
+.modTeamMember {
+  text-align:center;
+}
 .modTeamMember .member {
   position: relative;
   overflow: hidden;
@@ -2883,7 +2887,7 @@ body {
   line-height: 2.5rem;
 }
 .modTeamMember img {
-  width: 100%;
+  /*height: 100%;*/
 }
 .modTeamMember .overlay {
   opacity: 0;
@@ -3191,6 +3195,13 @@ body {
 .modTestimonials.simple .slick-slider {
   margin-bottom: 10px;
 }
+
+/* mods */
+
+.catbloc:not(:target) {
+  display: none;
+}
+
 @media only screen and (max-width: 60em) {
   .modTeamMember .overlay {
     opacity: 1;
