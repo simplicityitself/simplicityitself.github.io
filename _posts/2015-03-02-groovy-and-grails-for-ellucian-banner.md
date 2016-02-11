@@ -1,8 +1,22 @@
 ---
-layout: article
+layout: post
 author: Simplicity Itself Team
-categories: Microservices and Reactive
-title: Best Practice Developer techniques&#58; The Hunt for The Silver Bullet
+categories:
+ - Microservices and Reactive
+title: Adopting Groovy and Grails for Ellucian Banner
+date: 2015-03-02 21:19:00
+image: images/vis/knowledge.jpg
+tags:
+ - adaptive
+ - adaptive learning
+ - banner
+ - grails
+ - groovy
+ - learning
+ - training
+ - work based learning
+
+redirect_from: "/learning/adaptive/groovy-and-grails-for-ellucian-banner.html"
 ---
 Hundreds of Universities across the world use Banner® from Ellucian as their central Student Information System and academic ERP. It is a battle tested, extensible and well understood system with a long pedigree.
 

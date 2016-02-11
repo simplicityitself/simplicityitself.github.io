@@ -1,8 +1,20 @@
 ---
-layout: article
+layout: post
 author: David Dawson
-categories: Microservices and Reactive
+categories:
+ - Microservices and Reactive
 title: Best Practice Developer techniques&#58; The Hunt for The Silver Bullet
+date: 2015-03-02 21:19:00
+image: images/vis/SilverBullet.png
+tags:
+ - adaptive learning
+ - complexity
+ - knowledge
+ - learning
+ - simplicity
+ - training
+
+redirect_from: "/learning/adaptive/the-real-silver-bullet.html"
 ---
 
 Over the past 15 years of software development, especially since the XP movement gained traction, a series of styles, techniques and processes have gained broad industry adoption. These are, at times, called 'best practices'. At others times they are referred to as dogma or 'cargo cult'.
@@ -127,5 +139,3 @@ You don't need arguments between developer opinions. Simply run a test, gather m
 This forms a key part of our <em>Adaptive Learning</em> engagements, extended training with a deep metrics driven approach that helps developers to learn new technologies and adopt techniques that improves their ability to learn and build systems that are sympathetic to learning.
 
 If you'd like help with this and with learning in general, get in touch.
-
-&nbsp;
