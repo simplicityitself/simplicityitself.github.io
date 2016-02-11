@@ -16,7 +16,7 @@
   <h3>Categories</h3>
   <ul>
     {% for cat in site.categories %}
-      <li><a href="/blog/category/#{{cat | first | capitalize}}">{{cat | first | capitalize}}</a></li>
+      <li><a href="/blog/category#{{cat | first | capitalize}}">{{cat | first | capitalize}}</a></li>
     {% endfor %}
   </ul>
 </div>

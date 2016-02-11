@@ -74,12 +74,14 @@ jQuery(document).foundation();
       submitHandler: function(form) {
         $.ajax({
           type: 'POST',
-          url: 'send.php',
+          url: 'https://doopnet.uk/infra/contact.php',
           data: $(form).serialize(),
           success: function(data) {
+            console.log(data);
             if(data.match(/success/)) {
               $(form).trigger('reset');
               $('#thanks').show().fadeOut(5000);
+              console.log('derp');
             }
           }
         });
