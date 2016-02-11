@@ -4,8 +4,10 @@ email: info@simplicityitself.com
 description: > # Simplicity Itself, expert advice in handling changing software.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: SimplicityItse1
+twitter_username: SimplicityItse1f
 github_username:  simplicityitself
+
+
 
 # Build settings
 markdown: kramdown
@@ -15,5 +17,6 @@ paginate_path: "blog/page:num"
 
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
 
 category-list: [learning, microservices-react, publications]

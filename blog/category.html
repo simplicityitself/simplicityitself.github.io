@@ -1,0 +1,60 @@
+---
+layout: blog
+---
+<div class='full' style='background: #f5f5f5'>
+    <div class='row'>
+        <div class='large-9 columns'>
+            <div class='big mod modBlogPost'>
+            <div class="catbloc" id="all">
+                <h2>All posts</h2>
+
+                    <ul>
+                        {% for post in site.posts %}
+                            <li>
+                                <a href="{{ post.url }}">
+                                <time>{{ post.date | date: "%-d %B %Y" }}</time>
+                                {{ post.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+            </div>
+
+            {% for category in site.categories %}
+                <div class="catbloc" id="{{ category | first | remove:' ' }}">
+                    <h2>{{ category | first }}</h2>
+
+                    <ul>
+                        {% for posts in category %}
+                          {% for post in posts %}
+                            {% if post.url %}
+                              <li>
+                                <a href="{{ post.url }}">
+                                  <time>{{ post.date | date: "%-d %B %Y" }}</time>
+                                  {{ post.title }}
+                                </a>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        {% endfor %}
+                    </ul>
+                 </div>
+            {% endfor %}
+            </div>
+            <div class='four spacing'></div>
+        </div>
+        <div class='large-3 columns' id='sidebar'>
+            {% include sidebar.html %}
+            <div class='four spacing'></div>
+        </div>
+    </div>
+</div>
+<div class='full no-padding' style='background: #111'>
+    <div class='two spacing'></div>
+    <div class='row'>
+        <div class='large-12 columns'>
+            <p>2014 {{site.title}}. All rights reserved.</p>
+        </div>
+    </div>
+    <div class='spacing'></div>
+</div>

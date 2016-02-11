@@ -4,7 +4,7 @@
     <ul class='title-area'>
       <li class='name'>
         <h1>
-          <a href="{{site.url}}/index.html">
+          <a href="{{site.url}}/">
             <img alt="" src="{{site.url}}/images/silogo.png" />
           </a>
         </h1>
@@ -30,9 +30,9 @@
           {% else %}
             <li>
               {% if include.base %}
-                <a href="{{site.url}}/{{include.base}}{{ item.path }}">{{ item.name }}</a>
+                <a href="/{{ item.path }}">{{ item.name }}</a>
               {% else %}
-                <a href="{{ item.path }}">{{ item.name }}</a>
+                <a href="{{ item.path}}">{{ item.name }}</a>
               {% endif %}
 
             </li>
