@@ -7,7 +7,7 @@ categories:
  - Public
 title: Simplicity Itself and Idyllic Software announce Partnership
 date: 2015-06-16 08:28
-image: images/vis/cogs.jpg
+image: images/vis/partners1.jpg
 tags:
  - idyllic
  - microservices

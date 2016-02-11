@@ -1,8 +1,17 @@
 ---
-layout: article
+layout: post
 author: David Dawson
-categories: Microservices and Reactive
-title: Best Practice Developer techniques&#58; The Hunt for The Silver Bullet
+categories:
+ - Microservices and Reactive
+title: Avoid Microservice Platform Lock In using Service Discovery
+date: 2015-02-10 22:52:00
+image: images/vis/padlock.jpg
+tags:
+ - antifragile
+ - microservice
+ - service discovery
+
+redirect_from: "/microservices-reactive/avoid-microservice-platform-lock-in-service-discovery.html"
 ---
 The promises of adopting the cloud for your software are enticing. Effectively limitless scalability, large reductions in capital expenditure, efficiency savings in staffing through automation. An exciting prospective, and one that has being brought into even greater focus by the rise and rise of Microservices.
 
