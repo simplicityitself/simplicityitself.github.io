@@ -1,8 +1,10 @@
 ---
-layout: article
+layout: post
 author: Simplicity Itself Team
-categories: Learning
+categories: [Learning]
+tags: [microservices, adaptive learning, adaptive]
 title: Mastering Microservices – Adaptive Learning
+redirect_from "/learning/mastering-microservices-adaptive-learning.html"
 ---
 Ever experienced that moment where your heart sinks at the words "We just want you to make this one, small and trivial change…".
 
