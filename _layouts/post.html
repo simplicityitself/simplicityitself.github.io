@@ -32,11 +32,14 @@ layout: blog
           <h3><a href="{{page.url}}">{{page.title}}</a></h3>
           {{ content }}
             <p id="post-meta">
+
+
                 <i class="fa fa-tag"></i>
-                <a href="/blog/tags"><em>Browse all tags</em></a>
                 {% for tag in page.tags %}
-                <a href="/blog/tags#{{tag}}">{{tag}}</a>
+
+                <a href="/blog/tags#{{tag | downcase}}">{{tag}}</a>,
                 {% endfor %}
+                <a href="/blog/tags"><em>Browse all tags</em></a>
             </p>
         </div>
 
