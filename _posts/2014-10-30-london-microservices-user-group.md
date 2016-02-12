@@ -1,8 +1,11 @@
 ---
 title: London μServices (Microservices) User Group
-layout: article
+layout: post
 author: Simplicity Itself Team
-categories: microservices-reactive
+date: 2014-10-30
+categories: [microservices-reactive]
+tags: [community, how to, learning, life preserver, london, meetup, microservice, microservices, social, testing]
+
 redirect_from: "/microservices-reactive/london-microservices-user-group.html"
 ---
 The Microservices approach, technology and community are fairly new.

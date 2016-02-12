@@ -1,8 +1,21 @@
 ---
 title: Development by Slogan with DRY&#58; Part 2, The Tower of Coupling
-layout: article
-author: Simplicity Itself Team
-categories: our-team
+layout: post
+author: David Dawson
+date: 2015-01-08 21:22
+image: images/vis/dry-cracked-skin.jpg
+categories:
+ - Our Team
+tags:
+ - architecture
+ - bounded context
+ - data flow
+ - dogma
+ - DRY
+ - life preserver
+ - microservices
+ - WET
+
 redirect_from: "/our-team/development-by-slogan-dry-part2.html"
 ---
 <strong><a title="Development by Slogan:Part 1, Really DRY" href="/our-team/development-by-slogan-dry-part1/">Part 1</a></strong>

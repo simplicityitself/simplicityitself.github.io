@@ -3,7 +3,7 @@ title: Designing MIcroservices Overview
 layout: article
 author: Simplicity Itself Team
 categories: Getting Started With Microservices
-redirect_from: "/learning/getting-started-microservices/designing-microservices-overview/"
+
 ---
 
 <div>How to design for Microservices? How do you approach the challenge of building a system made of discrete parts that each can evolve at their own rates? How to balance the flexibility you need in order for your software to adapt, while at the same time ensuring you don’t pay for that flexibility onerously with huge amounts of unnecessary complexity?</div>

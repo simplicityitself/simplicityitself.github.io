@@ -85,6 +85,6 @@ Any developer with some experience of networking, and wants to build software th
 </ul>
 </li>
 </ul>
-If you would like to discuss this course, or book it for your team, please <a href="/#contactus" target="_blank">contact us</a>
+If you would like to discuss this course, or book it for your team, please <a href="/#contact" target="_blank">contact us</a>
 
 &nbsp;

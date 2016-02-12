@@ -1,7 +1,6 @@
 ---
 layout: blog
 ---
-
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-9 columns'>
@@ -32,13 +31,22 @@ layout: blog
           </p>
           <h3><a href="{{page.url}}">{{page.title}}</a></h3>
           {{ content }}
+            <p id="post-meta">
+                <i class="fa fa-tag"></i>
+                <a href="/blog/tags"><em>Browse all tags</em></a>
+                {% for tag in page.tags %}
+                <a href="/blog/tags/#{{tag}}">{{tag}}</a>
+                {% endfor %}
+            </p>
         </div>
+
       </div>
 
       <div class='four spacing'></div>
     </div>
     <div class='large-3 columns' id='sidebar'>
       {% include sidebar.html %}
+
     </div>
   </div>
 </div>

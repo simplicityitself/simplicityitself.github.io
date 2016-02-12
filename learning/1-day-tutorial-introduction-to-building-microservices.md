@@ -34,4 +34,4 @@ This tutorial is suitable for both public and private delivery, and can be held 
 
 Supporting from 15 up to 60 attendees at a single workshop, this provides a cost effective way to sample a Microservice approach with your own team and codebases.
 
-<a title="Contact Us" href="/contact/">Contact Us</a> for more information
+<a title="Contact Us" href="/#contact">Contact Us</a> for more information

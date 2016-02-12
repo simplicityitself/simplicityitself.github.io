@@ -1,8 +1,13 @@
 ---
 title: The Future of Grails
-layout: article
+layout: post
 author: David Dawson
-categories: our-team
+date: 2013-04-18 12:21
+categories:
+ - Our Team
+tags:
+ - grails
+ - groovy
 redirect_from: "/our-team/future-of-grails.html"
 ---
 This is a response to a blog post by Peter Ledbrook on <a href="http://www.cacoethes.co.uk/blog/groovyandgrails/where-next-for-grails">his blog</a>

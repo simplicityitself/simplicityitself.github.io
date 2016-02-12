@@ -1,8 +1,21 @@
 ---
 title: Development by Slogan with DRY&#58; Part 3, DRY vs WET
 layout: article
-author: Simplicity Itself Team
-categories: our-team
+author: David Dawson
+date: 2015-01-09
+image: images/vis/dry-cracked-skin.jpg
+categories:
+ - Our Team
+tags:
+ - architecture
+ - bounded context
+ - data flow
+ - dogma
+ - DRY
+ - life preserver
+ - microservices
+ - WET
+
 redirect_from: "/our-team/development-by-slogan-dry-part3.html"
 ---
 <a title="Development by Slogan:Part 1, Really DRY" href="/our-team/development-by-slogan-dry-part1/" target="_blank"><strong>Part 1</strong></a>

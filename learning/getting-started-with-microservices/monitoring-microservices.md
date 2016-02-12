@@ -3,7 +3,6 @@ title: Monitoring Microservices
 layout: article
 author: Simplicity Itself Team
 categories: Getting Started With Microservices
-redirect_from: "/learning/getting-started-microservices/monitoring-microservices.html"
 ---
 
 Deployment of a Microservices system puts pressure on the development, operations and devops teams to be able to understand and actively manage the various moving parts of the system. The upside is that you potentially have far more information on how your application is being used, which can be turned into valuable, actionable information.

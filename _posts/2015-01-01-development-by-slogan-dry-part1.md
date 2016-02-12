@@ -1,8 +1,21 @@
 ---
 title: Development by Slogan with DRY&#58; Part 1, Really DRY
-layout: article
-author: Simplicity Itself Team
-categories: our-team
+layout: post
+author: David Dawson
+date: 2015-01-01
+image: images/vis/dry-cracked-skin.jpg
+categories:
+ - Our Team
+tags:
+ - architecture
+ - bounded context
+ - data flow
+ - dogma
+ - DRY
+ - life preserver
+ - microservices
+ - WET
+
 redirect_from: "/our-team/development-by-slogan-dry-part1.html"
 ---
 I recently had a thought provoking exchange on Twitter with Luke Daley who is a Gradle developer, creator of the Ratpack web framework and all around awesome fellow.
