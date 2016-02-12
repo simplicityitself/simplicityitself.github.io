@@ -1,8 +1,23 @@
 ---
 title: Preparing for Change at The University of York
-layout: article
+layout: post
 author: Simplicity Itself Team
-categories: case-studies
+categories:
+ - Case Studies
+tags:
+ - architecture
+ - case study
+ - course
+ - grails
+ - groovy
+ - life preserver
+ - project manager
+ - SITS
+ - student management
+ - training
+ - university
+ - york
+
 redirect_from: "/case-study/preparing-for-change-at-the-university-of-york.html"
 ---
 The University of York is world leading academic institution in the ancient city of York in the north east of England.  Like most universities, it has internal software delivery teams to build and maintain applications and products for internal and external use.

@@ -1,8 +1,21 @@
 ---
 title: Maintaining the Pace of Change, Simplicity Itself visits Snowflake Software
-layout: article
+layout: post
+date: 2015-01-17
 author: Simplicity Itself Team
-categories: case-studies
+categories:
+ - Case Studies
+tags:
+ - architecture
+ - case studies
+ - case study
+ - change
+ - consultancy
+ - life preserver
+ - microservices
+ - skillsmatter
+ - snowflake software
+
 redirect_from: "/case-study/maintaining-the-pace-of-change-simplicity-itself-visits-snowflake-software.html"
 ---
 Snowflake Software, like many great software houses, is populated by highly intelligent and dedicated developers who have a sharp focus on its product offerings along with an eye on a changing future.

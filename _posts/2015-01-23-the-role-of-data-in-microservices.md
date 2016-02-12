@@ -1,8 +1,10 @@
 ---
 title: The Role of Data in Microservices
-layout: article
-author: Simplicity Itself Team
-categories: Getting Started With Microservices
+layout: post
+author: David Dawson
+date: 2015-01-23
+categories: [Getting Started With Microservices]
+tags: [archi, architecture, data flow, data schema, design, mi, microservice, microservices]
 redirect_from: "/our-team/the-role-of-data-in-microservices.html"
 ---
 When approaching development of Microservices, it's often easy to think of the services themselves as the valuable pieces of your system. each service you add gives you more functionality, and so more value.   For the majority of systems we have built and reviewed during our consultancy, we have found that the system itself is of fairly marginal value. Instead, the data that it contains and the intelligence it can provide based upon that data is what is actually valuable.  This seems a subtle, even academic distinction, but it is important and putting it at the forefront of your mind during design has significant repercussions on the way you build your services and the way that they interact with each other.

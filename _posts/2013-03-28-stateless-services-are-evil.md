@@ -1,8 +1,18 @@
 ---
 title: Simplicity in Web Architecture - Beware the Stateless Service
-layout: article
+layout: post
 author: David Dawson
-categories: our-team
+date: 2013-03-28 12:18
+image: images/vis/clouds1.jpg
+categories:
+ - Our Team
+tags:
+ - architecture
+ - grails
+ - groovy
+ - spring
+ - web
+
 redirect_from: "/our-team/stateless-services-are-evil.html"
 ---
 This article is related to my recent talk at the London Groovy/ Grails User Group which you can see at <a href="http://skillsmatter.com/podcast/groovy-grails/all-hail-the-command-object-are-stateless-services-the-only-way">SkillsMatter</a>

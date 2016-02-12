@@ -3,7 +3,6 @@ title: Microservice Log Management Overview
 layout: article
 author: Simplicity Itself Team
 categories: Getting Started With Microservices
-redirect_from: "/learning/getting-started-microservices/microservices-log-management-overview/"
 ---
 
 Often, logs are considered part of the Microservices monitoring solution, and we believe that should be the case. It is, however, a complex enough topic with enough competing technologies to warrant it's own overview.

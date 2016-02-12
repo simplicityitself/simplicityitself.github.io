@@ -12,7 +12,7 @@ The results of this investment, we present as <em>The Knowledge</em>.
 
 This can be consumed in two forms, firstly we publish a regular email notification of free content we add to SimplicityItself.com.  This includes new articles on system architecture, advances in learning and upcoming events. Subscribing will give you advance access to our articles and a discount on our training, consultancy and other products if you decide to take advantage of them.
 <h3>Free Advance Content Updates</h3>
-[mailchimpsf_form]
+
 <h3>The Knowledge Subscription</h3>
 We have found that there is a great demand for much of what we sell as consultancy and training.
 
