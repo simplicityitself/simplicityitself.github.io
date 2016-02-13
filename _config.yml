@@ -1,10 +1,10 @@
 # Site settings
-title: Simplicity Itself
+title: "Simplicity Itself: Experts in Software Change"
 email: info@simplicityitself.com
 description: > # Simplicity Itself, expert advice in handling changing software.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: SimplicityItse1f
+twitter_username: simplicityitse1
 github_username:  simplicityitself
 
 

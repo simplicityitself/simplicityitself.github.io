@@ -2287,6 +2287,7 @@ body.screenshot {
   -o-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  font-size:38px;
 }
 .modFullscreenSlider .fullscreen_slideshow .animate-in .buttons-wrapper {
   opacity: 1;
