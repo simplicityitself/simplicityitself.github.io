@@ -4,16 +4,23 @@
 - name: Microservices
   path: "#microservices"
   section_id: microservices
-- name: Training
-  path: "#training"
-  section_id: training
-- name: Team
-  path: "#team"
-  section_id: team
+- name: Continuous Delivery
+  path: "#continuousdelivery"
+  section_id: continuousdelivery
+- name: Event Architecture
+  path: "#eventarchitecture"
+  section_id: eventarchitecture
+- name: Cloud Native
+  path: "#cloudnative"
+  section_id: cloudnative
+- name: About Us
+  path: "#about"
+  section_id: about
 - name: Contact
   path: "#contact"
   section_id: contact
 - name: Blog
   path: blog/
   section_id: blog
+
 

@@ -39,6 +39,36 @@ jQuery(document).foundation();
   "use strict";
   $(document).ready(function() {
 
+    function setTitleSmallDisplay(iblock, mblock, right, min) {
+
+
+
+            if (mblock.position().left < right && $(document).width() > min) {
+                var src = $(iblock).find('img').attr('src').match(/[^\.]+/);
+
+                if(src[0].indexOf('crop2') < 1) {
+                    console.log('image nowt');
+                    $(iblock).find('img').attr('src', src + 'crop2.png');
+                }
+            } else {
+                var src = $(iblock).find('img').attr('src').replace('crop2.png', '.png');
+                $(iblock).find('img').attr('src', src);
+            }
+
+    }
+
+    // title manage
+
+    var tImg = $('.title-area li.name');
+    var tImgRight = tImg.position().left + tImg.width();
+    var mnu = $('.top-bar section ul');
+
+    setTitleSmallDisplay(tImg, mnu, tImgRight, 960);
+
+    $(window).resize( function() {
+        setTitleSmallDisplay(tImg, mnu, tImgRight, 960);
+    });
+
     $('video').each(function() {
       this.muted = true;
     });

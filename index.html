@@ -244,6 +244,15 @@ Because microservices actively design for change, engineering teams can react to
     </div>
   </div>
 </div>
+<div class='three spacing'></div>
+<div class='full parallax' style='background-image: url(../images/vis/container-loading.jpg);'>
+  <div class='row'>
+    <div class='large-12 columns' style="height:15rem;">
+
+    </div>
+  </div>
+</div>
+
 <a id='continuousdelivery'></a>
 <div class='full'>
   <div class='row'>
@@ -257,6 +266,14 @@ Because microservices actively design for change, engineering teams can react to
       <p class='centered-text' style='font-size: 1.6rem'>
         Our consultants and delivery teams can enable you to adopt these new processes by working with your board, delivery teams and other stakeholders.
       </p>
+    </div>
+  </div>
+</div>
+<div class='three spacing'></div>
+<div class='full parallax' style='background-image: url(../images/vis/London_5.jpg);'>
+  <div class='row'>
+    <div class='large-12 columns' style="height:15rem;">
+
     </div>
   </div>
 </div>
@@ -276,7 +293,15 @@ Because microservices actively design for change, engineering teams can react to
     </div>
   </div>
 </div>
-<a id='microservices'></a>
+<div class='three spacing'></div>
+<div class='full parallax' style='background-image: url(../images/vis/clouds1.jpg);'>
+  <div class='row'>
+    <div class='large-12 columns' style="height:15rem;">
+
+    </div>
+  </div>
+</div>
+<a id='cloudnative'></a>
 <div class='full'>
   <div class='row'>
     <div class='large-10 columns large-centered'>
@@ -284,10 +309,10 @@ Because microservices actively design for change, engineering teams can react to
       {% include section-header.html class="alt" title="Cloud Native Infrastructure" %}
       <div class='spacing'></div>
       <p class='centered-text' style='font-size: 1.6rem'>
-       <i>Coud Native</i> describes making your approach to software development work with cloud services in the most natural way possible. Covering containerisation, Docker, AWS Lambda, Mesos, Kubernetes, other orchestration platform.
+       <i>Cloud Native</i> describes making your approach to software development work with cloud services in the most natural way possible. Covering containerisation, Docker, AWS Lambda, Mesos, Kubernetes, other orchestration platform.
         </p>
       <p class='centered-text' style='font-size: 1.6rem'>
-        Adopting a CLoud Native posture for your organisation will enable you to take full advantage of the modern coud, and enable you to deploy more quickly, with greater confidence, and create a more resilient environment to work within.
+        Adopting a Cloud Native posture for your organisation will enable you to take full advantage of the modern coud, and enable you to deploy more quickly, with greater confidence, and create a more resilient environment to work within.
       </p>
     </div>
   </div>
@@ -306,7 +331,7 @@ Because microservices actively design for change, engineering teams can react to
       <div class='mod modClients' data-slides_to_show='4'>
         <div class='clients'>
           {% for client in page.clients %}
-          <div><img style="height:60px;" alt="" src="{{client}}" /></div>
+          <div style="padding: 0.8rem 0.4rem; background: #fff; margin-left: 0.4rem; text-align:center;"><img style="height:60px; margin: 0 auto;" alt="" src="{{client}}" /></div>
           {% endfor %}
         </div>
       </div>
@@ -314,62 +339,18 @@ Because microservices actively design for change, engineering teams can react to
   </div>
   <div class='two spacing'></div>
 </div>
-<a id='training'></a>
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Training" class="alt" %}
-      <div class='two spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modBoxedText'>
-        <div class='boxes' style="margin:0 auto;">
-          {% include servicebox.html image="/images/vis/page-layouts-7215968_orig.jpeg" title="1 Day: Introduction to<br/>​Building Microservices" text="A 1 day workshop, giving you a taste of a Microservices architecture and how to identify, extract and run services." url="/courses/1-day-tutorial-introduction-to-building-microservices" %}
-          {% include servicebox.html image="/images/vis/page-layouts-5488439_orig.jpeg" title="3 Day: Building Microservices" text="A 3 day in intensive course, permitting full applications to be built, differing styles and techniques to be applied and a deep dive into the Microservice philosophy of building antifragile software." url="/learning/building-microservices-course"%}
-          {% include servicebox.html image="/images/vis/page-layouts-1705637_orig.jpeg" title="Mastering Microservices<br/>​Adaptive Learning" text="Applying the precepts of Work Based Learning for a longer term, deeper learning experience and deep dive on the technologies and practical techniques of Microservices Development." url="/learning/mastering-microservices-adaptive-learning" %}
 
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='four spacing'></div>
-</div>
 
-<a id='team'></a>
+<a id='about'></a>
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html class="alt" title="Team members" %}
+      {% include section-header.html class="alt" title="About Us" %}
       <div class='two spacing'></div>
     </div>
   </div>
   <div class='row'>
-    {% for member in page.members %}
-      <div class='small-6 medium-3 large-4 columns'>
-        <div class='mod modTeamMember style-2'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{member.avatar}}" />
-            <div class='overlay'>
-              <ul class='socials'>
-                {% for social in member.socials %}
-                  <li>
-                    <a href='{{social.url}}'>
-                      <i class='fa fa-{{social.icon}}'></i>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-          <h3>{{member.name}}</h3>
-          <p class='position'>{{member.position}}</p>
-          <p>{{member.desc}}</p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
+
   </div>
   <div class='three spacing'></div>
 </div>
@@ -448,7 +429,7 @@ Because microservices actively design for change, engineering teams can react to
     <div class='medium-4 columns'>
       <div class='contact-details'>
           <address>Simplicity Itself Ltd<br/>
-          64 ACRES LANE, STALYBRIDGE, EAST CHESHIRE, SK15 2JU
+          64 ACRES LANE, STALYBRIDGE, CHESHIRE, SK15 2JU
           </address>
           ​
 
