@@ -111,13 +111,37 @@ jQuery(document).foundation();
             if(data.match(/success/)) {
               $(form).trigger('reset');
               $('#thanks').show().fadeOut(5000);
-              console.log('derp');
+
             }
           }
         });
         return false;
       }
     });
+
+      $('form#webinar_form').validate({
+          messages: { },
+          submitHandler: function(form) {
+              $.ajax({
+                  type: 'POST',
+                  url: 'https://doopnet.uk/infra/webinar.php',
+                  data: $(form).serialize(),
+                  success: function(data) {
+                      console.log(data);
+                      if(data.match(/success/)) {
+                          $(form).trigger('reset');
+                          $('#webithanks').show().fadeOut(5000, function() {
+                              $('#webinarModal').foundation('reveal', 'close');
+                          });
+
+
+
+                      }
+                  }
+              });
+              return false;
+          }
+      });
 
     if($('.masonry-container').length > 0) {
 

@@ -7,13 +7,14 @@ slides:
     buttons:
       - text: "Microservices: Adaptable Software"
         class: medium
-        url: /#microservices
+        url: "#microservices"
       - text: "Event Architecture: Adaptable Data"
         class: medium
-        url: /#microservices
-      - text: "Continuous Delivery: Adaptable Process and DevOps"
-        class: medium
-        url: /#microservices
+        url: "#eventarchitecture"
+      - text: "Cloud Native Infrastructure Webinar"
+        class: medium success
+        url: "#cloudnative"
+
 tags2:
   - bg: http://themes.blahlab.com/squarebox/wp-content/uploads/2014/12/out-short.jpg
     title: creative &amp; powerful
@@ -204,6 +205,9 @@ socials:
           <h1>{{slide.title}}</h1>
           <p>{{slide.tagline}}</p>
           <div class='two spacing'></div>
+            {% if slide.detailed %}
+            {{slide.detailed}}
+            {% endif %}
           <div class='buttons-wrapper'>
             {% for button in slide.buttons %}
               <a class='button {{button.class}}' href='{{button.url}}'>{{button.text}}</a>
@@ -314,9 +318,28 @@ Because microservices actively design for change, engineering teams can react to
       <p class='centered-text' style='font-size: 1.6rem'>
         Adopting a Cloud Native posture for your organisation will enable you to take full advantage of the modern coud, and enable you to deploy more quickly, with greater confidence, and create a more resilient environment to work within.
       </p>
+
+        <div class="panel callout">
+            {% include section-header.html class="alt" title="Live Webinar" %}
+            <h4 class="centered-text">Live Upgrade of Your Microservice with No Interruption</h4>
+            <div class='spacing'></div>
+            <p class="centered-text"><strong>2pm on 4th March</strong>, hosted by <strong>David</strong> and <strong>Sylvain</strong></p>
+            <p class="centered-text">
+                <a class="button small" href="/contact/webinar" data-reveal-id="webinarModal">Register your Interest</a>
+            </p>
+
+
+            <div id="webinarModal" class="reveal-modal" data-reveal aria-labelledby="webinarModalTitle" aria-hidden="true" role="dialog">
+                {% include webinar-form.html title="Live Upgrade of Your Microservice with No Interruption" %}
+                <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+            </div>
+
+        </div>
+
     </div>
   </div>
 </div>
+
 <div class='three spacing'></div>
 <div class='full parallax' style='background-image: url(../images/vis/Water-Drop_DRIP-or-not-to-DRIP.jpg); color: #fff;'>
   <div class='row'>
@@ -345,13 +368,14 @@ Because microservices actively design for change, engineering teams can react to
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
+      <div class='spacing'></div>
       {% include section-header.html class="alt" title="About Us" %}
-
-        <p>Simplicity Itself was founded with a mission to enabling our clients to <b>keep their software changing</b>. We are 
+      <div class='spacing'></div>
+      <p class='centered-text' style='font-size: 1.6rem'>Simplicity Itself was founded with a mission to enabling our clients to <b>keep their software changing</b>. We are
         a team of consultants and technologists researching, analysing and delivering on that founding mission</p>
-        <p>We cover an area of the software experience that will help with that agenda, and have worked with our clients to
+      <p class='centered-text' style='font-size: 1.6rem'>We cover an area of the software experience that will help with that agenda, and have worked with our clients to
         advise their teams, train them in new technologies and innovations and complete full projects</p>
-        <p>We are made up of book authors, international speakers, open source contributors, researchers and delivery experts.</p>
+      <p class='centered-text' style='font-size: 1.6rem'>We are made up of book authors, international speakers, open source contributors, researchers and delivery experts.</p>
       <div class='two spacing'></div>
     </div>
   </div>
