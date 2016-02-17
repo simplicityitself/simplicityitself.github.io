@@ -47,7 +47,6 @@ jQuery(document).foundation();
                 var src = $(iblock).find('img').attr('src').match(/[^\.]+/);
 
                 if(src[0].indexOf('crop2') < 1) {
-                    console.log('image nowt');
                     $(iblock).find('img').attr('src', src + 'crop2.png');
                 }
             } else {
@@ -107,7 +106,6 @@ jQuery(document).foundation();
           url: 'https://doopnet.uk/infra/contact.php',
           data: $(form).serialize(),
           success: function(data) {
-            console.log(data);
             if(data.match(/success/)) {
               $(form).trigger('reset');
               $('#thanks').show().fadeOut(5000);
@@ -127,7 +125,6 @@ jQuery(document).foundation();
                   url: 'https://doopnet.uk/infra/webinar.php',
                   data: $(form).serialize(),
                   success: function(data) {
-                      console.log(data);
                       if(data.match(/success/)) {
                           $(form).trigger('reset');
                           $('#webithanks').show().fadeOut(5000, function() {
@@ -174,11 +171,6 @@ jQuery(document).foundation();
 
       var ctx = $("nav.top-bar.onepage");
 
-      // var headerHeight = ctx.height();
-      // $(window).scroll(function() {
-      //   headerHeight = ctx.height();
-      //   console.log(headerHeight);
-      // });
       var headerHeight = 59;
 
       // use to mark whether the scrolling is caused by clicking
@@ -190,7 +182,6 @@ jQuery(document).foundation();
         $('.top-bar-section a', ctx).closest('li').removeClass('active');
         $(this).closest('li').addClass('active');
         clickScrolling = true;
-        // console.log($(this).attr('href').offset());
         try {
           if ( $(this).attr('href') == '#top' ) {
             var distance = 0
@@ -198,7 +189,6 @@ jQuery(document).foundation();
             var distance = $($(this).attr('href')).offset().top - headerHeight + 'px';
           }
 
-          // console.log(distance);
 
           $('html, body').stop().animate({
             scrollTop: distance
@@ -459,7 +449,6 @@ jQuery(document).foundation();
         options.autoStop = false;
       }
 
-      // console.log(options);
 
       var sequence = $(".sequence", $ctx).sequence(options).data("sequence");
       sequence.beforeCurrentFrameAnimatesOut = function() {
@@ -475,7 +464,6 @@ jQuery(document).foundation();
 
         // when the next frame is the last one
         if ( sequence.nextFrameID == sequence.frames.length && options.autoStop ) {
-          // console.log(sequence.nextFrameID);
           sequence.stopAutoPlay();
         }
 
