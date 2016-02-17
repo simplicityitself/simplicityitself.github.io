@@ -103,7 +103,6 @@ For Spring projects, Eureka is now the quickest to get started with due to the i
 
 &nbsp;
 <h2>RollYourOwn</h2>
-<img class="alignright wp-image-1129 size-medium" src="/wp-content/uploads/2015/01/girlmagnify-300x180.jpg" alt="girlmagnify" width="300" height="180" />One major point to note in the above systems is that they all require some extra service discovery infrastructure. If you can accommodate that, then it is better to adopt one or more of the systems above as your service discovery solution.
 
 If you can't adapt to that, then you will have to create your own discovery solution within your existing infrastructure.
 
@@ -125,5 +124,3 @@ The approach we would recommend would be to use some existing message infrastruc
 If you do require consistency, then using some consistent data store could serve as the basis for a distributed configuration system that can be used to build service discovery. You will also want to emit notifications on status changes. You should realise, though, that building a consistent, distributed system is exceptionally hard to get right, and very easy to get subtly wrong.
 
 Overall, really not recommended, but certainly possible.
-<div style="vertical-align: top; text-align: left; font-size: 1.5em; display: inline-block; width: 40%;"><span style="color: #000080;"><a style="color: #000080;" title="Microservices, Docker and Containers, an Overview" href="/learning/getting-started-microservices/microservices-docker-and-containers-an-overview/"><strong>&lt;- Docker and Containers</strong></a></span></div>
-<div style="vertical-align: top; text-align: right; font-size: 1.5em; display: inline-block; width: 45%;"><span style="color: #000080;"><a style="color: #000080;" title="Microservice Communication Overview" href="/learning/getting-started-microservices/microservice-communication-overview/"><strong>Next : Service Communication -&gt;</strong></a></span></div>
