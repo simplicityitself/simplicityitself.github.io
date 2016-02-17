@@ -13,7 +13,9 @@ tags:
  - spring
  - web
 
-redirect_from: "/our-team/stateless-services-are-evil.html"
+redirect_from: 
+  - "/our-team/stateless-services-are-evil.html"
+  - "/our-team/stateless-services-are-evil/index.html"
 ---
 This article is related to my recent talk at the London Groovy/ Grails User Group which you can see at <a href="http://skillsmatter.com/podcast/groovy-grails/all-hail-the-command-object-are-stateless-services-the-only-way">SkillsMatter</a>
 

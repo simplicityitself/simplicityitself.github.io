@@ -11,7 +11,9 @@ tags:
  - oauth
  - security
 
-redirect_from: "/microservices-reactive/microservices-security-oauth-vs-session.html"
+redirect_from: 
+  - "/microservices-reactive/microservices-security-oauth-vs-session.html"
+  - "/microservices-reactive/microservices-security-oauth-vs-session/index.html"
 ---
 
 A question often posed to us during our research and project work is "<em>how should I secure a Microservice?</em>"

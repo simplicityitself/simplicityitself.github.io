@@ -16,7 +16,9 @@ tags:
  - training
  - work based learning
 
-redirect_from: "/learning/adaptive/groovy-and-grails-for-ellucian-banner.html"
+redirect_from: 
+  - "/learning/adaptive/groovy-and-grails-for-ellucian-banner.html"
+  - "/learning/adaptive/groovy-and-grails-for-ellucian-banner/index.html"
 ---
 Hundreds of Universities across the world use Banner® from Ellucian as their central Student Information System and academic ERP. It is a battle tested, extensible and well understood system with a long pedigree.
 

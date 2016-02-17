@@ -16,7 +16,9 @@ tags:
  - microservices
  - WET
 
-redirect_from: "/our-team/development-by-slogan-dry-part2.html"
+redirect_from: 
+  - "/our-team/development-by-slogan-dry-part2.html"
+  - "/our-team/development-by-slogan-dry-part2/index.html"
 ---
 <strong><a title="Development by Slogan:Part 1, Really DRY" href="/our-team/development-by-slogan-dry-part1/">Part 1</a></strong>
 <h3>Don't Repeat Anything == The Tower of Coupling</h3>

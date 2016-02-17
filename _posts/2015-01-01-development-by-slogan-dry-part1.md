@@ -16,7 +16,9 @@ tags:
  - microservices
  - WET
 
-redirect_from: "/our-team/development-by-slogan-dry-part1.html"
+redirect_from: 
+  - "/our-team/development-by-slogan-dry-part1.html"
+  - "/our-team/development-by-slogan-dry-part1/index.html"
 ---
 I recently had a thought provoking exchange on Twitter with Luke Daley who is a Gradle developer, creator of the Ratpack web framework and all around awesome fellow.
 

@@ -16,7 +16,9 @@ tags:
  - skillsmatter
  - snowflake software
 
-redirect_from: "/case-study/maintaining-the-pace-of-change-simplicity-itself-visits-snowflake-software.html"
+redirect_from: 
+  - "/case-study/maintaining-the-pace-of-change-simplicity-itself-visits-snowflake-software.html"
+  - "/case-study/maintaining-the-pace-of-change-simplicity-itself-visits-snowflake-software/index.html"
 ---
 Snowflake Software, like many great software houses, is populated by highly intelligent and dedicated developers who have a sharp focus on its product offerings along with an eye on a changing future.
 

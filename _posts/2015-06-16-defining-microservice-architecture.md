@@ -6,7 +6,9 @@ categories:
 title: Defining The Microservice Architecture
 date: 2015-06-16 23:55:00
 image: images/vis/cogs.jpg
-redirect_from: "/microservices-reactive/defining-the-microservice-architecture.html"
+redirect_from: 
+  - "/microservices-reactive/defining-the-microservice-architecture.html"
+  - "/microservices-reactive/defining-the-microservice-architecture/index.html"
 ---
 Recently (June 2015), I gave a <a title="MIcroservices Done RIght" href="https://skillsmatter.com/skillscasts/6274-david-dawson" target="_blank">talk</a> at the DDD Exchange at Skills Matter in London.
 
