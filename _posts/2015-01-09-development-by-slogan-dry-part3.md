@@ -66,9 +66,3 @@ With that, I am happy to continue making my claim
 
 D.
 
-<hr />
-
-<strong>Simplicity Itself 'The Knowledge'</strong>
-
-We release our blogs and articles to our mailing lists a day or so before making them public.  Sign up for 'The Knowledge' from Simplicity Itself for advance access and extra content!
-
