@@ -11,7 +11,9 @@ tags:
  - microservice
  - service discovery
 
-redirect_from: "/microservices-reactive/avoid-microservice-platform-lock-in-service-discovery.html"
+redirect_from: 
+  - "/microservices-reactive/avoid-microservice-platform-lock-in-service-discovery.html"
+  - "/microservices-reactive/avoid-microservice-platform-lock-in-service-discovery/index.html"
 ---
 The promises of adopting the cloud for your software are enticing. Effectively limitless scalability, large reductions in capital expenditure, efficiency savings in staffing through automation. An exciting prospective, and one that has being brought into even greater focus by the rise and rise of Microservices.
 

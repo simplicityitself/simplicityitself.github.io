@@ -16,7 +16,9 @@ tags:
  - microservices
  - WET
 
-redirect_from: "/our-team/development-by-slogan-dry-part1.html"
+redirect_from: 
+  - "/our-team/development-by-slogan-dry-part1.html"
+  - "/our-team/development-by-slogan-dry-part1/index.html"
 ---
 I recently had a thought provoking exchange on Twitter with Luke Daley who is a Gradle developer, creator of the Ratpack web framework and all around awesome fellow.
 
@@ -49,9 +51,3 @@ The "Entity" was born, refined, and then became the core of how we build rationa
 Unfortunately, this comes with it's own problems. Before I discuss those though, I want to tackle Don't Repeat Anything a little more, as it's the application of this too deeply that we see again and again, and defended to the point of dogma.
 
 <strong>Next post ... </strong>I'll dig into the effects this can have on your development in <a title="Development by Slogan with DRY: Part 2, The Tower of Coupling" href="/our-team/development-by-slogan-dry-part2/"><em>Development by Slogan with DRY, Part 2: The Tower of Coupling</em></a>
-
-<hr />
-
-<strong>Simplicity Itself 'The Knowledge'</strong>
-
-We release our blogs and articles to our mailing lists a day or so before making them public.  Sign up for 'The Knowledge' from Simplicity Itself for advance access and extra content!

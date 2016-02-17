@@ -16,7 +16,9 @@ tags:
  - training
  - work based learning
 
-redirect_from: "/learning/adaptive/groovy-and-grails-for-ellucian-banner.html"
+redirect_from: 
+  - "/learning/adaptive/groovy-and-grails-for-ellucian-banner.html"
+  - "/learning/adaptive/groovy-and-grails-for-ellucian-banner/index.html"
 ---
 Hundreds of Universities across the world use Banner® from Ellucian as their central Student Information System and academic ERP. It is a battle tested, extensible and well understood system with a long pedigree.
 
@@ -53,9 +55,5 @@ To adopt Banner XE, you will need :-
 	<li>Git</li>
 </ul>
 &nbsp;
-
-Simplicity Itself offers a full, holistic package for your team to learning all of the above in an affordable way over the months that are really required for effective learning. This is not an expensive consultancy engagement, instead a long term learning programme that uses our <a title="Expert Learning: The Knowledge" href="http://www.simplicityitself.com/learning/the-knowledge/">Knowledge</a> Online and Offline resources and team based learning fostered within your development groups. These create effective cycles of learning within your team that will stay in place long into the future.
-
-We can provide additional services to give you a best practice development environment, deployment system and Continuous Delivery pipeline from our <em>devops </em>practice and <em>Knowledge</em> subset.
 
 <a href="http://www.simplicityitself.com/#contactus" target="_blank">Contact us for more information</a>

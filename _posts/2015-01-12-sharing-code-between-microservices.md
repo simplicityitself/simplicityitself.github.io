@@ -91,8 +91,3 @@ If you'd like more info, we run a course on <a style="color: #228;" title="Build
 
 &nbsp;
 
-<hr />
-
-<strong>Simplicity Itself 'The Knowledge'</strong>
-
-We release our blogs and articles to our mailing lists a day or so before making them public.  Sign up for 'The Knowledge' from Simplicity Itself for advance access and regular updates on Microservices, system architecture and our experiments in software.

@@ -18,7 +18,9 @@ tags:
  - university
  - york
 
-redirect_from: "/case-study/preparing-for-change-at-the-university-of-york.html"
+redirect_from: 
+  - "/case-study/preparing-for-change-at-the-university-of-york.html"
+  - "/case-study/preparing-for-change-at-the-university-of-york/index.html"
 ---
 The University of York is world leading academic institution in the ancient city of York in the north east of England.  Like most universities, it has internal software delivery teams to build and maintain applications and products for internal and external use.
 

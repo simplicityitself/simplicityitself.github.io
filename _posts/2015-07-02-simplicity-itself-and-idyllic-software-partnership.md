@@ -15,7 +15,9 @@ tags:
  - photon
  - press release
 
-redirect_from: "/public/announcement-simplicity-itself-and-idyllic-software-partnership.html"
+redirect_from: 
+  - "/public/announcement-simplicity-itself-and-idyllic-software-partnership.html"
+  - "/public/announcement-simplicity-itself-and-idyllic-software-partnership/index.html"
 ---
 <p lang="zxx">2015-07-01, London, UK</p>
 <p lang="zxx"><em><strong>Simplicity Itself</strong></em>, global leader in Microservices architectures and Data Science platforms, announces a wide ranging partnership with <a title="Idyllic Software" href="www.idyllic-software.com" target="_blank"><em><strong>Idyllic Software</strong></em></a>, high quality software delivery specialists and Microservices based delivery experts. Together, Simplicity Itself and Idyllic present a cutting edge delivery team, education provider and an accessible pool of deep architectural knowledge in Microservices and Data Science.</p>

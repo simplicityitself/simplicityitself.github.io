@@ -16,7 +16,9 @@ tags:
  - microservices
  - WET
 
-redirect_from: "/our-team/development-by-slogan-dry-part2.html"
+redirect_from: 
+  - "/our-team/development-by-slogan-dry-part2.html"
+  - "/our-team/development-by-slogan-dry-part2/index.html"
 ---
 <strong><a title="Development by Slogan:Part 1, Really DRY" href="/our-team/development-by-slogan-dry-part1/">Part 1</a></strong>
 <h3>Don't Repeat Anything == The Tower of Coupling</h3>
@@ -53,8 +55,3 @@ Once those abstractions are in place in a larger system, the same rule as above 
 To abuse the old proverb - <em>"the road to legacy is paved with good developer practices"</em>
 <strong>Next post ... </strong><a title="Development by Slogan with DRY: Part 3, DRY vs WET" href="/our-team/development-by-slogan-dry-part3/"><em>Development by Slogan with DRY, Part 3: DRY vs WET?</em></a>
 
-<hr />
-
-<strong>Simplicity Itself 'The Knowledge'</strong>
-
-We release our blogs and articles to our mailing lists a day or so before making them public.  Sign up for 'The Knowledge' from Simplicity Itself for advance access and extra content!

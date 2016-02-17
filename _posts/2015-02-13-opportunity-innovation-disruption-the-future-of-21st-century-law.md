@@ -12,7 +12,9 @@ tags:
  - research
  - ross
  - watson
-redirect_from: "/publications/opportunity-innovation-disruption-the-future-of-21st-century-law.html"
+redirect_from: 
+  - "/publications/opportunity-innovation-disruption-the-future-of-21st-century-law.html"
+  - "/publications/opportunity-innovation-disruption-the-future-of-21st-century-law/index.html"
 ---
 
 <em>Summary</em>
