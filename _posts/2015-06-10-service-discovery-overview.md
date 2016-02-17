@@ -3,6 +3,9 @@ title: Service Discovery Overview
 layout: article
 author: Simplicity Itself Team
 categories: Getting Started With Microservices
+redirect_from: 
+  - "/learning/getting-started-with-microservices/service-discovery-overview.html"
+  - "/learning/getting-started-microservices/service-discovery-overview/index.html"
 ---
 
 
