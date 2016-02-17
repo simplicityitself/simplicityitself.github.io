@@ -4,7 +4,9 @@ layout: post
 author: Simplicity Itself Team
 categories: [Our Team]
 tags: [architecture, data schema, DRY, life preserver, microservices, muon, netflix, netflix oss, sharing]
-redirect_from: "/our-team/sharing-code-between-microservices.html"
+redirect_from: 
+  - "/our-team/sharing-code-between-microservices.html"
+  - "/our-team/sharing-code-between-microservices/"
 ---
 My good friend Peter Ledbrook has been pondering the question <a style="color: #228;" href="http://blog.cacoethes.co.uk/software/code-reuse-in-micro-services">"how can we share code between microservices"</a>
 
