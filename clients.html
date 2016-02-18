@@ -1,0 +1,65 @@
+---
+title: Clients
+layout: default
+author: Simplicity Itself Team
+date: 2016-02-16
+
+clients:
+  - image: images/clients/abcam.png
+  - image: images/clients/bbc.png
+    description: We deliver regular training courses on Microservices and Cloud Native architectures to BBC staff via the BBC Academy.
+  - image: images/clients/c4adv.png
+  - image: images/clients/idyllic.png
+  - image: images/clients/pivotal.png
+  - image: images/clients/sage.png
+  - image: images/clients/skillsmatter.png
+    description: We work closely with Skillsmatter on a variety of subjects<br/>We deliver <a href="">training courses</a> in cloud native and microservices.<br/>we inspired and continue to arrange the <a href="" target="_blank">muCon Microservices conference</a><br/> and Skillsmatter host the Microservices User Group which we founded and continue to run
+  - image: images/clients/sky.jpg
+  - image: images/clients/snowflake.png
+  - image: images/clients/ubs.jpg
+  - image: images/clients/univyork.gif
+
+#kingfisher, Screwfix, esf, Bosch, Atos, Cap Gemini, RBS
+
+---
+<div class='full parallax' style='background-image: url(images/vis/Water-Drop_DRIP-or-not-to-DRIP.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html class="alt" title_style="color: #fff;" title="Our Clients" %}
+
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modClients' data-slides_to_show='4'>
+        <div class='clients'>
+          {% for client in page.clients %}
+          <div style="padding: 0.8rem 0.4rem; background: #fff; margin-left: 0.4rem; text-align:center;"><img style="height:60px; margin: 0 auto;" alt="" src="{{client.image}}" /></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div style="text-align:center; width:100%; margin-left:auto; margin-right: auto">
+{% for client in page.clients %}
+  {% if client.description %}
+  <div class='full'>
+    <div class='row'>
+      <div class='large-10 columns large-1' style="text-align:left">
+        <div style="float:left; width:20em">
+        <img style="margin: 0 auto;" alt="" src="{{client.image}}" />
+        </div>
+        <div style="display: inline; text-align:left; font-size:1.2em">{{client.description}}</div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class='two spacing'></div>
+<div class='two spacing'></div>

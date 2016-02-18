@@ -1,21 +1,42 @@
 - name: Home
   path: "#top"
   section_id: home
-- name: Microservices
+#- name: Who are you?
+#  path: "#about-us"
+#  section_id: whoareyou
+#  children:
+#      - name: Enterprise
+#        path: blog/
+#      - name: SME
+#        path: blog-fullwidth/
+#      - name: Startup
+#        path: blog-masonry/
+- name: What We Do
   path: "#microservices"
   section_id: microservices
-- name: Continuous Delivery
-  path: "#continuousdelivery"
-  section_id: continuousdelivery
-- name: Event Architecture
-  path: "#eventarchitecture"
-  section_id: eventarchitecture
-- name: Cloud Native
-  path: "#cloudnative"
-  section_id: cloudnative
+  children:
+      - name: Microservices
+        path: "#microservices"
+      - name: Continuous Delivery
+        path: "#continuousdelivery"
+      - name: Event Architecture
+        path: "#eventarchitecture"
+      - name: Cloud Native
+        path: "#cloudnative"
+      - name: Full System Delivery
+        path: "#systemdelivery"
 - name: About Us
   path: "#about"
   section_id: about
+  children:
+      - name: Clients
+        path: "clients.html"
+      - name: Partners
+        path: partners.html
+      - name: Ethos
+        path: ethos.html
+      - name: Jobs
+        path: jobs.html
 - name: Contact
   path: "#contact"
   section_id: contact
