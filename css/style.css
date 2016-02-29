@@ -3449,3 +3449,10 @@ body {
 html body input.proham {
   display:none;
 }
+
+body ul.sequence-canvas .button.medium {
+  color: #493A03;
+}
+body ul.sequence-canvas .button.medium.success {
+  color: #153722;
+}
