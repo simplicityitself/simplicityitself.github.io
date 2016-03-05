@@ -11,7 +11,7 @@ layout: blog
             <div class='image'><img alt="" src="{{site.url}}/{{page.image}}" /></div>
           {% endif %}
         </div>
-        <div class='content'>
+        <div class='content' style="font-size:1.2rem">
           <p class='info'>
             <span>{{page.date | date: "%B %d, %Y" }}</span>
             /
@@ -31,6 +31,7 @@ layout: blog
             </span>
           </p>
           <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+
           {{ content }}
         </div>
       </div>
@@ -41,13 +42,4 @@ layout: blog
       {% include sidebar.html %}
     </div>
   </div>
-</div>
-<div class='full no-padding' style='background: #111'>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p>&copy;2016 {{site.title}}. All rights reserved.</p>
-    </div>
-  </div>
-  <div class='spacing'></div>
 </div>

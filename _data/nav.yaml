@@ -9,8 +9,8 @@
 #        path: blog/
 #      - name: SME
 #        path: blog-fullwidth/
-#      - name: Startup
-#        path: blog-masonry/
+#      - name: Startups
+#        path: services/simplicity-for-startups.html
 - name: What We Do
   path: "#microservices"
   section_id: microservices
