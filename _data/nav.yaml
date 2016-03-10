@@ -25,6 +25,9 @@
         path: "#cloudnative"
 #      - name: Full System Delivery
 #        path: "#systemdelivery"
+- name: Startups
+  path: services/simplicity-for-startups.html
+  section_id: startups
 - name: About Us
   path: "#about"
   section_id: about
@@ -33,6 +36,8 @@
         path: "clients.html"
       - name: Partners
         path: partners.html
+      - name: Community
+        path: community.html
 #      - name: Ethos
 #        path: ethos.html
 #      - name: Jobs
