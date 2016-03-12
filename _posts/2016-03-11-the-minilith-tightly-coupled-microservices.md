@@ -62,7 +62,8 @@ Given that, you have to be able to handle dependencies between services during d
 
 ## The Minilith
 
-The end result is that we compromise autonomy in favour of determinism.
+The end result is that we compromise autonomy in favour of determinism. We compromise the ability to change arbitrarily inn favour of knowing what was
+deployed at some point. 
 
 We accept that deployment is broader than a single service, and that there are dependencies when deploying certain services, there is an order.
 
