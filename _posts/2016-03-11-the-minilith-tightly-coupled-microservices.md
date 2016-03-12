@@ -33,6 +33,7 @@ This definition hinges purely on being able to change this service with scant re
 The simple answer is yes, sometimes full autonomy for an individual service isn't worth the investment to create. To create a fully autonomous service, you need to go through a set of steps, deliver a set of capabilities.
 
 Briefly :-
+
 * Handle versioning/ upgrade
 * Be able to run multiple versions of the service at once
 * Have a lot of tolerance in your data source schema (eg, a relational DB schema) for upgrade.
