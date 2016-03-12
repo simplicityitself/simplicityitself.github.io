@@ -68,16 +68,21 @@ We accept that deployment is broader than a single service, and that there are d
 
 The concept of closely related services is not new. We use the term ***minilith***, invoking megalith, but smaller :-)
 
+I pinched this term from [Gawain Hammond](https://skillsmatter.com/legacy_profile/gawain-hammond), currently of the Sky Tech Futures team.
+
 A megalith is a collection of standing stones, most often interlocked in some way. Stone Henge is probably the most famous, and works for the analogy. The stones were all arranged in concentric circles, with top stones linking them all together.
 
-The point is that some services naturally deploy as logical unit. They are seperate at runtime, but they can't exist without each other, and are effectively version locked. 
+A Minilith is similar, in that there are strong connections between services. Without the surrounding services these would simply fail.
+
+The point is that some services naturally deploy as logical unit. They are separate at runtime, but they can't exist without each other, and are effectively version locked.
 
 You can see this in use in other areas. Take the Kubernetes *Pod*, for example. Essentially the same idea, but most often described as bundling helper processes, databases, logging and the like.
 
 We propose that you consider taking this further. By extending the logical boundary you are wrapping around your service, you can gain many of the benefits of a multi process runtime (scaling, polyglot etc) without the full overhead of creating runtime autonomy. 
 
-In my next article, I'll be digging into the continuous delivery perspective of this, then taking a view through the data and deployment aspects.
+In my next article, I'll take advantage of the minilith to enable continuous delivery in a regulated environment. 
 
+Then, we'll take a view through the data and deployment aspects.
 
 
 
