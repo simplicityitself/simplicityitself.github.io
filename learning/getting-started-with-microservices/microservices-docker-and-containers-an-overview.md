@@ -75,10 +75,3 @@ We guide clients towards identifying and harnessing change pressures as their ov
 This premise has significant implications on what you will want out of your deployment architecture, your supporting infrastructure, system design and development approach. It, in many circumstances, leads to Microservices, which is why Simplicity Itself has specialised in this field, our architectural principles guided us here.
 
 Whether you need to use Docker or not will fall out of this evaluation as a purely technical, and so tactical, decision, not as a strategic one.
-
-Read more on the <a title="Designing Microservices Overview" href="/learning/getting-started-microservices/designing-microservices-overview/">Design process for Microservices</a>
-
-Read more about Docker, and other options for <a title="Microservice Deployment Overview" href="/learning/getting-started-microservices/microservice-deployment-overview/">Deployment Infrastructure</a>
-
-<div style="vertical-align: top; text-align: left; font-size: 1.5em; display: inline-block; width: 40%;"><span style="color: #000080;"><a style="color: #000080;" title="Getting Started" href="/learning/getting-started-microservices/microservices-docker-and-containers-an-overview/"><strong>&lt;- Getting Started</strong></a></span></div>
-<div style="vertical-align: top; text-align: right; font-size: 1.5em; display: inline-block; width: 45%;"><span style="color: #000080;"><a style="color: #000080;" title="Service Discovery Overview" href="/learning/getting-started-microservices/service-discovery-overview/"><strong>Next : Service Discovery -&gt;</strong></a></span></div>
