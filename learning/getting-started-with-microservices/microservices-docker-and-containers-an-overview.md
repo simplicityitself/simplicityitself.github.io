@@ -3,6 +3,10 @@ title: Microservices, Docker and Containers&#58; An Overview
 layout: article
 author: Simplicity Itself Team
 categories: Getting Started With Microservices
+
+redirect_from:
+ - "/articles/microservices-docker-and-containers-an-overview/index.html"
+
 ---
 
 For many coming to Microservices for the first time, it appears that the concept of containerised application deployment, as now epitomised now Docker, has become synonymous with Microservice development.
