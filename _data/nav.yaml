@@ -23,8 +23,8 @@
         path: "#eventarchitecture"
       - name: Cloud Native
         path: "#cloudnative"
-#      - name: Full System Delivery
-#        path: "#systemdelivery"
+      - name: Full System Delivery
+        path: "#systemdelivery"
 - name: Startups
   path: services/simplicity-for-startups.html
   section_id: startups
