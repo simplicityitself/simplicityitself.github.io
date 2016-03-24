@@ -3,7 +3,7 @@ title: The Minilith - Tightly Coupled Microservices
 layout: post
 author: David Dawson
 date: 2016-03-11 12:18
-image: images/vis/clouds1.jpg
+image: images/megalith.jpg
 categories:
  - Our Team
 tags:
