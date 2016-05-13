@@ -7,9 +7,9 @@ image: /images/vis/hex.png
 redirect_from:
  - "/services/building-microservices.html"
 ---
-Have you ever experienced that moment where your heart sinks at the words "We just want you to make this one, small and trivial change…".
+Have you ever experienced that moment where your heart sinks at the words "We just want you to make this one, <b>small and trivial change…</b>".
 
-If you build software, change is an inevitable force in your life and your ability to react to change can be the difference between a killer product and a last-to-the-post flop.
+If you build software, ***change is an inevitable force*** in your life and your ability to react to change can be the difference between a killer product and a last-to-the-post flop.
 
 Given that change and speed of software evolution is so critical, why is it that so much software becomes a millstone around yourself and your team's next, leading to you dreading the next inevitable change that's needed? For over 10 years, focus has been consistently applied to helping us work in a more agile and adaptable fashion, with far less focus on how to create software that thrives in an agile environment.
 
@@ -90,3 +90,38 @@ Any developer with some experience of networking, and wants to build software th
 </li>
 </ul>
 &nbsp;
+
+#### Day 1 - Architecture & Design for Simplicity and Antifragility:
+
+* Introducing Antifragile Software and Simplicity
+* Defining Microservices in term of their Principles, Benefits and Challenges
+* Understand and explore the forces (stressors) of change on software
+* Applying Simplicity, with O.R.E.
+* Architecting and Designing for Software System Evolution with the Life Preserver tool
+* Organising for concerns and simple components
+* How to collaborate to discover change stressors on your software system
+* Organising components for change
+
+#### Day 2 - Implementing Antifragile Software with Simple Components, Events & Microservices
+
+* Exploring and Managing change-stressor fault-lines between areas of your system
+* Designing software bridges that handle change across fault-lines
+* Applying de-coupling intelligently, balancing flexibility and complexity
+* Applying Request-Response, Messaging and Events
+* Designing when to apply and implement Postel’s Law
+
+#### Day 3 - Deploying, Running, Testing & Managing Antifragile Software with Microservices
+
+* Extracting components into Microservices
+* Building, Deploying and Managing Effective Unix-style Microservice
+* Pipelines
+* Simplifying Microservice Management using Immutable Service Deployments
+* Designing and Implementing Reactive Microservices
+* Applying effective health and monitoring for microservices
+* Designing and Implementing Microservice Failover and Auto-Recovery Strategies using the Circuit Breaker Pattern and Friends
+* Designing and Implementing for Autonomy with Microservice ‘Cells'
+* Enabling Governance and Innovation with Microservices
+* Enabling Variation and Experimentation in Languages and Frameworks through Microservices
+* Testing stressors for failure to avoid failure
+* Testing and Continuous Delivery for Microservices 
+* Containerisation and Docker
