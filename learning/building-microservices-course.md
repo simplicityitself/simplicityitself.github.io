@@ -1,12 +1,12 @@
 ---
 title: Building Microservices
-layout: article
+layout: service
 author: Simplicity Itself Team
 categories: Learning
 redirect_from:
  - "/services/building-microservices.html"
 ---
-Ever experienced that moment where your heart sinks at the words "We just want you to make this one, small and trivial change…".
+Have you ever experienced that moment where your heart sinks at the words "We just want you to make this one, small and trivial change…".
 
 If you build software, change is an inevitable force in your life and your ability to react to change can be the difference between a killer product and a last-to-the-post flop.
 
