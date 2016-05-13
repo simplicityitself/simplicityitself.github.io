@@ -25,9 +25,11 @@
         path: "#cloudnative"
       - name: Full System Delivery
         path: "#systemdelivery"
-- name: Startups
-  path: services/simplicity-for-startups.html
-  section_id: startups
+- name: Training
+  path: learning/building-microservices-course.html
+  children:
+      - name: Microservices
+        path: learning/building-microservices-course.html
 - name: About Us
   path: "#about"
   section_id: about
