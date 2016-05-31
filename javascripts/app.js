@@ -103,7 +103,7 @@ jQuery(document).foundation();
       submitHandler: function(form) {
         $.ajax({
           type: 'POST',
-          url: 'https://doopnet.uk/infra/contact.php',
+          url: 'http://doopnet.uk/infra/contact.php',
           data: $(form).serialize(),
           success: function(data) {
             if(data.match(/success/)) {
