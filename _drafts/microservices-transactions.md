@@ -1,5 +1,5 @@
 ---
-title: Transactions and Microservices
+title: Transactions in a Microservice System
 layout: post
 author: David Dawson
 date: 2016-03-01 12:18
@@ -13,7 +13,6 @@ tags:
 
 ---
 
-## be awesome everyone
 
 ## why we want transactions.
 
