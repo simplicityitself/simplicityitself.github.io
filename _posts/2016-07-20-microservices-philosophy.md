@@ -47,7 +47,7 @@ Digging a little deeper, we found two things that did find general agreement.
 
 The first, is **isolation**. The property of pulling a system apart, generally using a network boundary, although not always (eg OSGI and NetKernel).
 
-The second point of agreement was a deep ** aspiration**. The quality that the world would be better, if we deploy microservices.
+The second point of agreement was a deep **aspiration**. The quality that the world would be better, if we deploy microservices.
 
 Obviously, with my background as a hard technologist, this was fairly appalling. (although as a consultant, my proposal press fluttered!)
   
