@@ -1,4 +1,5 @@
 ---
+image: images/vis/clouds1.jpg
 title: Service Discovery Overview
 layout: article
 author: Simplicity Itself Team
