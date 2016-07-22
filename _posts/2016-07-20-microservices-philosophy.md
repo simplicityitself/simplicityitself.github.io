@@ -3,7 +3,7 @@ title: Microservices and Philosophy
 layout: post
 author: David Dawson
 date: 2016-07-20 12:18
-image: images/vis/clouds1.jpg
+image: images/vis/thinking.jpg
 categories:
  - Microservices
 tags:
