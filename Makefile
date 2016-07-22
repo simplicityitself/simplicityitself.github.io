@@ -9,3 +9,5 @@ all:
 	rvm use ruby-2.2.1
 	jekyll clean
 	jekyll serve --incremental --drafts
+
+

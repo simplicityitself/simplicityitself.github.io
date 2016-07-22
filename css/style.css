@@ -875,6 +875,7 @@ body.screenshot {
 }
 .modBlogPost .tags {
   padding: 5px 0;
+  height:80px
 }
 .modBlogPost .tags a {
   font-style: italic;
