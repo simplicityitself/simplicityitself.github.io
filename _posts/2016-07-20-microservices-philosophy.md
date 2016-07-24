@@ -51,7 +51,7 @@ The second point of agreement was a deep **aspiration**. The quality that the wo
 
 Obviously, with my background as a hard technologist, this was fairly appalling. (although as a consultant, my proposal press fluttered!)
   
-== The Microservice Architecture
+## The Microservice Architecture
 
 An interesting thing came up though, which was the terminology that people use when talking microservices. For much of the conversations, the phrase
 used is actually "a microservice architecture", rather than just "microservices".
