@@ -6,7 +6,7 @@ categories: Learning
 image: 
 ---
 
-Want to learn Microservices?   Want a course that **is truly deep enough for you** <img style="float:right; width:400px" src="/images/vis/iceberg.jpg" title="Logo Title Text 1"/>
+Want to learn Microservices?   Want a course that **is truly deep enough for you**
 
 
 Want to do **more than get started**?  Want to learn cost effectively?
@@ -14,7 +14,7 @@ Want to do **more than get started**?  Want to learn cost effectively?
 Other courses skim the surface of Microservices. This course, designed by the leaders of the London
 Microservices User Group and industry thought leaders, goes **far deeper**.  
 
-We use the industry leading **Adaptice Learning** method to run a 6 week course with highly interactive exercises, peer and tutor reviews, 
+We use the industry leading **Adaptive Learning** method to run a 6 week course with highly interactive exercises, peer and tutor reviews,
 group coding and more.
 
 ### **This course is for you**

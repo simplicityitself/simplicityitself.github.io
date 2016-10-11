@@ -28,7 +28,11 @@
 - name: Training
   path: learning/building-microservices-course.html
   children:
-      - name: Microservices
+      - name: Adopting Microservices
+        path: learning/adopting-microservices-course.html
+#      - name: Advaned Microservices
+#        path: learning/advanced-microservices-course.html
+      - name: Microservices. On Site
         path: learning/building-microservices-course.html
 - name: About Us
   path: "#about"
