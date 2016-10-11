@@ -111,4 +111,4 @@ Each learning unit is a self contained module taking place over 1-3 days.  Each 
 
 ## Booking
 
-To book, visit XXX
+To book, visit <a href="http://www.adaptos.net/effective-technology/courses/adopting-reactive-microservices/?utm_source=simplicity_itself&utm_campaign=adopting_microservices&utm_medium=adv">Adopting Microservices at Adaptos Learning</a>
