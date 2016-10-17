@@ -25,6 +25,8 @@ While they are popular, adopting them is often seen as hard, especially if you h
 
 You will be guided on an introduction to Microservices, how to adopt them, and how to successfully deliver and run them in production. This covers the low level deployment and design concerns, through building an effective data architecture to putting in place an appropriate delivery pipeline, secure runtime and how to effectively monitor in production.
 
+To book, visit <a href="http://www.adaptos.net/effective-technology/courses/adopting-reactive-microservices/?utm_source=simplicity_itself&utm_campaign=adopting_microservices&utm_medium=adv">Adopting Microservices at Adaptos Learning</a>
+
 <strong>Duration: 6 weeks</strong>
 
 This course covers :-
