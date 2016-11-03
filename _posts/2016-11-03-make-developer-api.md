@@ -16,10 +16,14 @@ tags:
 
 Gradle, NPM, Lein, Maven, Docker, Ansible, Kubernetes, Grunt ... The list goes on (and on, and on). Developer tooling, constantly re-invented for the modern age.
 
-We recently reviewed the various tooling we were using on a project, and came up with a long list. All of which a developer needs
-to be able to develop effectively.
+Microservices projects put particular pressures on development teams, even without polyglot, you end up adding in a fair amount of automation
+tooling (Docker anyone?) that is patchily integrated into the core developer tooling. Every time you add in docker support to gradle or grunt, the more locked you are to that language, making moving away that much harder.
 
-Any new joiner would write a cheat sheet out. Just like the one in the wiki, that no one maintains properly.
+If you do go polyglot (and I recommend that you do), then your problems are multiplied, as your common developer interface is just gone.
+
+We recently reviewed the various tooling we were using on a Microservices project, and came up with a long, long list. All of which a developer needs to be able to develop effectively across the entire system.
+
+Any new joiner would start to write a cheat sheet out. Just like the one in the wiki, of course. The one that no one maintains properly and is actually wrong is various subtle and totally misleading ways.
 
 So when you come to a part of the project you've not worked with on a while, you want to get that initial hook, the starting place to cosntruct the 'Theory', the mental model of the system that you use to understand what you see in the repo.
 
@@ -42,7 +46,29 @@ For our projects that's as simple as looking in the Makefile for what the `relea
 
 This helps from a vocabulary point of view, you decide your top level tasks, likely `test`, `build`, `release`, `clean` and put those in every Makefile.
 
-Then, any developer can go to any project, do quick verifications and then use the other make targets to start understanding more of the details.
+Looking like so
+
+```
+build:
+	./gradlew assemble
+
+test: build
+	./gradlew test
+
+release:
+	./gradlew publishSnapshot
+
+clean:
+	./gradlew clean
+	rm -rf outputs
+
+```
+
+This same api could wrap node projects, docker-compose projects, some combination of the all of them, with the exact same developer api.
+
+Then, any developer can go to any project, do quick verifications and use the other make targets to start understanding more of the details.
+
+Adding a new language into the system becomes feasible again, CI can build it with no modifications, it just calls `make test` in every instance.
 
 You can see an example of this in [This Project](https://github.com/muoncore/muon-intro-talk)
 
@@ -52,3 +78,4 @@ give them consistency and an ease of use.
 ## It Tab Completes
 
 Did I mention make ships with bash tab autocomplete on most platforms. Can your dev tool do that?
+
