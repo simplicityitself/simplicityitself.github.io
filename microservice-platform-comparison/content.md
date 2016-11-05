@@ -1,17 +1,5 @@
----
-title: Microservice Platform Comparison
-layout: article
-author: David Dawson
-date: 2016-03-01 12:18
-image: images/vis/clouds1.jpg
-categories:
- - Our Team
-tags:
- - cloudnative
- - continuousdelivery
- - microservices
 
----
+
 
 ## The Analysis
 
@@ -27,18 +15,18 @@ The Lumineers,Ho Hey,Folk Rock
 
 ## Intro
 
-Recently, we ran a London Microservices User Group meeting - "Microservices Platform Smackdown". 
-This was intended to be somewhat more fiery than the ordinary meetup, directly pitching tech 
-against tech. It mostly worked, and we'll run the model again. 
+Recently, we ran a London Microservices User Group meeting - "Microservices Platform Smackdown".
+This was intended to be somewhat more fiery than the ordinary meetup, directly pitching tech
+against tech. It mostly worked, and we'll run the model again.
 
 One thing that came off the back of it was that many dev teams don't even know their options when
  putting a microservice architecture in place. You need many pieces to successfully deploy
- microservices, and one of the biggest is 'the platform'. 
- 
-This article is meant to be a starting point for teams to analyse. It does not make a single 
+ microservices, and one of the biggest is 'the platform'.
+
+This article is meant to be a starting point for teams to analyse. It does not make a single
 recommendation, instead presenting enough broad sweeps to get you started with a short list.
 
-If you'd like a more comprehensive analysis, get in touch for some consultancy and we'll happily 
+If you'd like a more comprehensive analysis, get in touch for some consultancy and we'll happily
 give that to you.
 
 ## The Contenders
@@ -77,27 +65,27 @@ License type
  - Fully open source
  - Commercial Extensions
  - Proprietary
- 
+
 Platform Deploy Model
  - Fully Hosted
  - Hosted and self hosted
  - Only self hosted
- 
+
 Application Deploy Method
  - API
  - Git push
  - Container image
 
 Buildpack Support
- 
+
 Docker Support
 Rocket Support
 
 Virt platform support
- - 
+ -
 
 Platform Services?
- 
+
 Application Management
 
 Service Discovery
@@ -122,8 +110,8 @@ attempt to match them above.  Ultimately though, your data architecture and wher
 in which platforms are even available to you. The role of data, how it moves and how you work
 upon it cannot be overstated.
 
-"Microservice" is, by definition, an ill defined term, and so all of the above are able to host 
-something that can legitimately be called a microservice.  WIth that though, they cannot all host 
+"Microservice" is, by definition, an ill defined term, and so all of the above are able to host
+something that can legitimately be called a microservice.  WIth that though, they cannot all host
 all of the same styles of microservices, and this is where your decision needs to be made.
 
 Broadly, your data architecture will likely be one of :-
@@ -132,9 +120,9 @@ Broadly, your data architecture will likely be one of :-
 * Event/ Message oriented. Standard DB, async comms.
 * Stream oriented. Event DB, distributed processing, async comms.
 
-The platforms data processing model is somewhat linked to this, and so influences what your 
+The platforms data processing model is somewhat linked to this, and so influences what your
  decision will be.
- 
+
 Broadly, the platforms above have one of the three models :-
 
 * Cloud Function
@@ -143,15 +131,15 @@ Broadly, the platforms above have one of the three models :-
 
 Each model can be used to also build the one above, if in a less optimised way.
 
-As an example, Mesos is a stateful scheduler for managing processing resources. Each resource can maintain 
+As an example, Mesos is a stateful scheduler for managing processing resources. Each resource can maintain
 state, volumes can be managed and attached as needed. It is certainly possible, and indeed common
 to implement _stateless_ applications within a Mesos managed setup. As compared with a dedicated
-stateless system, the dev UX is less optimised and some support infrastructure is missing, but it
+stateless system, the dev UX is generally less optimised and some support infrastructure is missing, but it
 is possible to build a platform with similar capability, given the resources to do so.
 
-Similarly, it is possible on any statefule or stateless platform to construct an analogue of the 
-cloud function systems, although initially with a less optimised dev UX, and with some investment 
-to do to get the system running. 
+Similarly, it is possible on any stateful or stateless platform to construct an analogue of the
+cloud function systems, although initially with a less optimised dev UX, and with some investment
+to do to get the system running.
 
 The upshot of this, we recommend the following analysis of your requirements :-
 
@@ -159,7 +147,11 @@ The upshot of this, we recommend the following analysis of your requirements :-
 * How optimised do you want the dev process to be.
 * How much effort do you want into implementing the platform.
 
+## PLatform and Development Process (aka Continuous Delivery)
+
+TODO, stuff here.
+
 ### The Sales Bit
 
-If you need any help evaluating or implementing a Microservices application rollout, including 
+If you need any help evaluating or implementing a Microservices application rollout, including
 the underlying platform, we can help!  Please get in touch.
