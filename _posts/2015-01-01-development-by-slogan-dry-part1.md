@@ -19,6 +19,9 @@ tags:
 redirect_from: 
   - "/our-team/development-by-slogan-dry-part1.html"
   - "/our-team/development-by-slogan-dry-part1/index.html"
+
+redirect_to:
+  - http://daviddawson.me/blog/2015/01/01/development-by-slogan-dry-part1.html
 ---
 I recently had a thought provoking exchange on Twitter with Luke Daley who is a Gradle developer, creator of the Ratpack web framework and all around awesome fellow.
 

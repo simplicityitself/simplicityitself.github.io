@@ -7,6 +7,9 @@ tags: [architecture, data schema, DRY, life preserver, microservices, muon, netf
 redirect_from: 
   - "/our-team/sharing-code-between-microservices.html"
   - "/our-team/sharing-code-between-microservices/index.html"
+  
+redirect_to:
+  - http://daviddawson.me/blog/2015/01/12/sharing-code-between-microservices.html
 ---
 My good friend Peter Ledbrook has been pondering the question <a style="color: #228;" href="http://blog.cacoethes.co.uk/software/code-reuse-in-micro-services">"how can we share code between microservices"</a>
 

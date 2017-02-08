@@ -12,6 +12,8 @@ tags:
  - microservices
  - make
 
+redirect_to:
+  - http://daviddawson.me/blog/2016/11/03/make-developer-api.html
 ---
 
 Gradle, NPM, Lein, Maven, Docker, Ansible, Kubernetes, Grunt ... The list goes on (and on, and on). Developer tooling, constantly re-invented for the modern age.

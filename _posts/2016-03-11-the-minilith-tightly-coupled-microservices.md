@@ -10,6 +10,8 @@ tags:
  - architecture
  - microservices
 
+redirect_to:
+  - http://daviddawson.me/blog/2016/03/11/the-minilith-tightly-coupled-microservices.html
 ---
 
 Without a doubt, Microservices as an architecture has grasped the imagination of modern development like no other.

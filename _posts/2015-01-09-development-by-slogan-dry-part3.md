@@ -19,6 +19,9 @@ tags:
 redirect_from: 
   - "/our-team/development-by-slogan-dry-part3.html"
   - "/our-team/development-by-slogan-dry-part3/index.html"
+  
+redirect_to:
+  - http://daviddawson.me/blog/2015/01/09/development-by-slogan-dry-part3.html
 ---
 <a title="Development by Slogan:Part 1, Really DRY" href="/our-team/development-by-slogan-dry-part1/" target="_blank"><strong>Part 1</strong></a>
 

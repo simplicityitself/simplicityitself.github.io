@@ -8,6 +8,9 @@ redirect_from:
   - "/learning/getting-started-with-microservices/service-discovery-overview.html"
   - "/learning/getting-started-microservices/service-discovery-overview/index.html"
   - "/articles/service-discovery-overview.html"
+  
+redirect_to:
+  - http://daviddawson.me/getting/started/with/microservices/2015/06/10/service-discovery-overview.html
 ---
 
 

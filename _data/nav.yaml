@@ -1,58 +1,58 @@
-- name: Home
-  path: "#top"
-  section_id: home
-#- name: Who are you?
-#  path: "#about-us"
-#  section_id: whoareyou
+#- name: Home
+#  path: "#top"
+#  section_id: home
+##- name: Who are you?
+##  path: "#about-us"
+##  section_id: whoareyou
+##  children:
+##      - name: Enterprise
+##        path: blog/
+##      - name: SME
+##        path: blog-fullwidth/
+##      - name: Startups
+##        path: services/simplicity-for-startups.html
+#- name: What We Do
+#  path: "#microservices"
+#  section_id: microservices
 #  children:
-#      - name: Enterprise
-#        path: blog/
-#      - name: SME
-#        path: blog-fullwidth/
-#      - name: Startups
-#        path: services/simplicity-for-startups.html
-- name: What We Do
-  path: "#microservices"
-  section_id: microservices
-  children:
-      - name: Microservices
-        path: "#microservices"
-      - name: Continuous Delivery
-        path: "#continuousdelivery"
-      - name: Event Architecture
-        path: "#eventarchitecture"
-      - name: Cloud Native
-        path: "#cloudnative"
-      - name: Full System Delivery
-        path: "#systemdelivery"
-- name: Training
-  path: learning/building-microservices-course.html
-  children:
-      - name: Adopting Microservices
-        path: learning/adopting-microservices-course.html
-#      - name: Advaned Microservices
-#        path: learning/advanced-microservices-course.html
-      - name: Microservices. On Site
-        path: learning/building-microservices-course.html
-- name: About Us
-  path: "#about"
-  section_id: about
-  children:
-      - name: Clients
-        path: "clients.html"
-      - name: Partners
-        path: partners.html
-      - name: Community
-        path: community.html
-#      - name: Ethos
-#        path: ethos.html
-#      - name: Jobs
-#        path: jobs.html
-- name: Contact
-  path: "#contact"
-  section_id: contact
-- name: Blog
-  path: blog/
-  section_id: blog
+#      - name: Microservices
+#        path: "#microservices"
+#      - name: Continuous Delivery
+#        path: "#continuousdelivery"
+#      - name: Event Architecture
+#        path: "#eventarchitecture"
+#      - name: Cloud Native
+#        path: "#cloudnative"
+#      - name: Full System Delivery
+#        path: "#systemdelivery"
+#- name: Training
+#  path: learning/building-microservices-course.html
+#  children:
+#      - name: Adopting Microservices
+#        path: learning/adopting-microservices-course.html
+##      - name: Advaned Microservices
+##        path: learning/advanced-microservices-course.html
+#      - name: Microservices. On Site
+#        path: learning/building-microservices-course.html
+#- name: About Us
+#  path: "#about"
+#  section_id: about
+#  children:
+#      - name: Clients
+#        path: "clients.html"
+#      - name: Partners
+#        path: partners.html
+#      - name: Community
+#        path: community.html
+##      - name: Ethos
+##        path: ethos.html
+##      - name: Jobs
+##        path: jobs.html
+#- name: Contact
+#  path: "#contact"
+#  section_id: contact
+#- name: Blog
+#  path: blog/
+#  section_id: blog
 
 

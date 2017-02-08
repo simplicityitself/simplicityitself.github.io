@@ -17,6 +17,9 @@ tags:
 redirect_from: 
   - "/learning/adaptive/the-real-silver-bullet.html"
   - "/learning/adaptive/the-real-silver-bullet/index.html"
+  
+redirect_to:
+  - http://daviddawson.me/microservices%20and%20reactive/2015/03/02/the-real-silver-bullet.html
 ---
 
 Over the past 15 years of software development, especially since the XP movement gained traction, a series of styles, techniques and processes have gained broad industry adoption. These are, at times, called 'best practices'. At others times they are referred to as dogma or 'cargo cult'.

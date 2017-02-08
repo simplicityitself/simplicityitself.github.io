@@ -16,6 +16,9 @@ tags:
 redirect_from: 
   - "/our-team/stateless-services-are-evil.html"
   - "/our-team/stateless-services-are-evil/index.html"
+  
+redirect_to:
+ - http://daviddawson.me/blog/2013/03/28/stateless-services-are-evil.html
 ---
 This article is related to my recent talk at the London Groovy/ Grails User Group which you can see at <a href="http://skillsmatter.com/podcast/groovy-grails/all-hail-the-command-object-are-stateless-services-the-only-way">SkillsMatter</a>
 

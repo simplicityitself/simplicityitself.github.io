@@ -13,6 +13,9 @@ tags:
  - devops
  - antifragile
 
+
+redirect_to:
+  - http://daviddawson.me/microservices/2016/07/20/microservices-philosophy.html
 ---
 
 When talking to clients, both current and potential, at conferences, users groups and the like, the question arises often, "what is a Microservice?"
