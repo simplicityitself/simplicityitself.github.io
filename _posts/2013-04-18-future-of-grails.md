@@ -11,6 +11,8 @@ tags:
 redirect_from: 
   - "/our-team/future-of-grails.html"
   - "/our-team/future-of-grails/index.html"
+redirect_to:
+- http://daviddawson.me/blog/2013/04/18/future-of-grails.html
 ---
 This is a response to a blog post by Peter Ledbrook on <a href="http://www.cacoethes.co.uk/blog/groovyandgrails/where-next-for-grails">his blog</a>
 
